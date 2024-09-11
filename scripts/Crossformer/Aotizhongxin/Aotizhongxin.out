@@ -1,0 +1,236 @@
+Use GPU: cuda:0
+>>>>>>>start training : Aotizhongxin_Crossformer_36_24_5_Crossformer_custom_ftM_sl36_ll18_pl24_dm768_nh8_el2_dl1_df768_fc3_ebtimeF_dtTrue_Exp_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 1204
+val 3485
+test 6989
+Epoch: 1 cost time: 2.5336756706237793
+Epoch: 1, Steps: 37 | Train Loss: 0.8551311 Vali Loss: 0.7597569 Test Loss: 0.7259205
+Validation loss decreased (inf --> 0.759757).  Saving model ...
+Updating learning rate to 0.0001
+Epoch: 2 cost time: 3.135942220687866
+Epoch: 2, Steps: 37 | Train Loss: 0.5881683 Vali Loss: 0.6914856 Test Loss: 0.6661186
+Validation loss decreased (0.759757 --> 0.691486).  Saving model ...
+Updating learning rate to 5e-05
+Epoch: 3 cost time: 2.5525944232940674
+Epoch: 3, Steps: 37 | Train Loss: 0.5187247 Vali Loss: 0.7223000 Test Loss: 0.7390785
+EarlyStopping counter: 1 out of 3
+Updating learning rate to 2.5e-05
+Epoch: 4 cost time: 2.7734334468841553
+Epoch: 4, Steps: 37 | Train Loss: 0.4797806 Vali Loss: 0.7294266 Test Loss: 0.7178071
+EarlyStopping counter: 2 out of 3
+Updating learning rate to 1.25e-05
+Epoch: 5 cost time: 2.3156847953796387
+Epoch: 5, Steps: 37 | Train Loss: 0.4500144 Vali Loss: 0.7357656 Test Loss: 0.7257733
+EarlyStopping counter: 3 out of 3
+Early stopping
+>>>>>>>testing : Aotizhongxin_Crossformer_36_24_5_Crossformer_custom_ftM_sl36_ll18_pl24_dm768_nh8_el2_dl1_df768_fc3_ebtimeF_dtTrue_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test 6989
+test shape: (6989, 1, 24, 11) (6989, 1, 24, 11)
+test shape: (6989, 24, 11) (6989, 24, 11)
+mse:0.6661186814308167, mae:0.5216684341430664
+Use GPU: cuda:0
+>>>>>>>start training : Aotizhongxin_Crossformer_36_36_5_Crossformer_custom_ftM_sl36_ll18_pl36_dm768_nh8_el2_dl1_df768_fc3_ebtimeF_dtTrue_Exp_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 1192
+val 3473
+test 6977
+Epoch: 1 cost time: 2.721987009048462
+Epoch: 1, Steps: 37 | Train Loss: 0.8648659 Vali Loss: 0.9011501 Test Loss: 0.9136416
+Validation loss decreased (inf --> 0.901150).  Saving model ...
+Updating learning rate to 0.0001
+Epoch: 2 cost time: 2.7812325954437256
+Epoch: 2, Steps: 37 | Train Loss: 0.6283903 Vali Loss: 0.9685829 Test Loss: 0.9044150
+EarlyStopping counter: 1 out of 3
+Updating learning rate to 5e-05
+Epoch: 3 cost time: 2.719391107559204
+Epoch: 3, Steps: 37 | Train Loss: 0.5537485 Vali Loss: 0.8629845 Test Loss: 0.8590210
+Validation loss decreased (0.901150 --> 0.862985).  Saving model ...
+Updating learning rate to 2.5e-05
+Epoch: 4 cost time: 2.9629955291748047
+Epoch: 4, Steps: 37 | Train Loss: 0.5029749 Vali Loss: 0.8697148 Test Loss: 0.9090432
+EarlyStopping counter: 1 out of 3
+Updating learning rate to 1.25e-05
+Epoch: 5 cost time: 3.0249695777893066
+Epoch: 5, Steps: 37 | Train Loss: 0.4868598 Vali Loss: 0.8431033 Test Loss: 0.8520069
+Validation loss decreased (0.862985 --> 0.843103).  Saving model ...
+Updating learning rate to 6.25e-06
+Epoch: 6 cost time: 2.727518320083618
+Epoch: 6, Steps: 37 | Train Loss: 0.4747986 Vali Loss: 0.8439469 Test Loss: 0.8638687
+EarlyStopping counter: 1 out of 3
+Updating learning rate to 3.125e-06
+Epoch: 7 cost time: 2.8459064960479736
+Epoch: 7, Steps: 37 | Train Loss: 0.4686427 Vali Loss: 0.8601394 Test Loss: 0.8866714
+EarlyStopping counter: 2 out of 3
+Updating learning rate to 1.5625e-06
+Epoch: 8 cost time: 2.687777519226074
+Epoch: 8, Steps: 37 | Train Loss: 0.4652503 Vali Loss: 0.8762969 Test Loss: 0.8925272
+EarlyStopping counter: 3 out of 3
+Early stopping
+>>>>>>>testing : Aotizhongxin_Crossformer_36_36_5_Crossformer_custom_ftM_sl36_ll18_pl36_dm768_nh8_el2_dl1_df768_fc3_ebtimeF_dtTrue_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test 6977
+test shape: (6977, 1, 36, 11) (6977, 1, 36, 11)
+test shape: (6977, 36, 11) (6977, 36, 11)
+mse:0.8520070910453796, mae:0.6266307830810547
+Use GPU: cuda:0
+>>>>>>>start training : Aotizhongxin_Crossformer_36_48_5_Crossformer_custom_ftM_sl36_ll18_pl48_dm768_nh8_el2_dl1_df768_fc3_ebtimeF_dtTrue_Exp_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 1180
+val 3461
+test 6965
+Epoch: 1 cost time: 2.592881202697754
+Epoch: 1, Steps: 36 | Train Loss: 0.9292842 Vali Loss: 0.9211625 Test Loss: 0.9207379
+Validation loss decreased (inf --> 0.921163).  Saving model ...
+Updating learning rate to 0.0001
+Epoch: 2 cost time: 2.479234218597412
+Epoch: 2, Steps: 36 | Train Loss: 0.6880692 Vali Loss: 1.0089502 Test Loss: 0.9223259
+EarlyStopping counter: 1 out of 3
+Updating learning rate to 5e-05
+Epoch: 3 cost time: 2.8784587383270264
+Epoch: 3, Steps: 36 | Train Loss: 0.6123268 Vali Loss: 1.0088152 Test Loss: 0.9957056
+EarlyStopping counter: 2 out of 3
+Updating learning rate to 2.5e-05
+Epoch: 4 cost time: 2.969641923904419
+Epoch: 4, Steps: 36 | Train Loss: 0.5615090 Vali Loss: 0.9293816 Test Loss: 0.9299052
+EarlyStopping counter: 3 out of 3
+Early stopping
+>>>>>>>testing : Aotizhongxin_Crossformer_36_48_5_Crossformer_custom_ftM_sl36_ll18_pl48_dm768_nh8_el2_dl1_df768_fc3_ebtimeF_dtTrue_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test 6965
+test shape: (6965, 1, 48, 11) (6965, 1, 48, 11)
+test shape: (6965, 48, 11) (6965, 48, 11)
+mse:0.9207378625869751, mae:0.6873243451118469
+Use GPU: cuda:0
+>>>>>>>start training : Aotizhongxin_Crossformer_36_60_5_Crossformer_custom_ftM_sl36_ll18_pl60_dm768_nh8_el2_dl1_df768_fc3_ebtimeF_dtTrue_Exp_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 1168
+val 3449
+test 6953
+Epoch: 1 cost time: 2.9509432315826416
+Epoch: 1, Steps: 36 | Train Loss: 0.9511574 Vali Loss: 1.0217929 Test Loss: 1.1039834
+Validation loss decreased (inf --> 1.021793).  Saving model ...
+Updating learning rate to 0.0001
+Epoch: 2 cost time: 2.9911351203918457
+Epoch: 2, Steps: 36 | Train Loss: 0.7174608 Vali Loss: 0.9353458 Test Loss: 0.9493878
+Validation loss decreased (1.021793 --> 0.935346).  Saving model ...
+Updating learning rate to 5e-05
+Epoch: 3 cost time: 2.94695782661438
+Epoch: 3, Steps: 36 | Train Loss: 0.6523464 Vali Loss: 0.9265293 Test Loss: 0.9056743
+Validation loss decreased (0.935346 --> 0.926529).  Saving model ...
+Updating learning rate to 2.5e-05
+Epoch: 4 cost time: 2.899810791015625
+Epoch: 4, Steps: 36 | Train Loss: 0.6081513 Vali Loss: 0.9641665 Test Loss: 0.9491313
+EarlyStopping counter: 1 out of 3
+Updating learning rate to 1.25e-05
+Epoch: 5 cost time: 2.69816255569458
+Epoch: 5, Steps: 36 | Train Loss: 0.5816855 Vali Loss: 0.9669727 Test Loss: 0.9558093
+EarlyStopping counter: 2 out of 3
+Updating learning rate to 6.25e-06
+Epoch: 6 cost time: 2.8222622871398926
+Epoch: 6, Steps: 36 | Train Loss: 0.5666269 Vali Loss: 0.9295349 Test Loss: 0.9237524
+EarlyStopping counter: 3 out of 3
+Early stopping
+>>>>>>>testing : Aotizhongxin_Crossformer_36_60_5_Crossformer_custom_ftM_sl36_ll18_pl60_dm768_nh8_el2_dl1_df768_fc3_ebtimeF_dtTrue_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test 6953
+test shape: (6953, 1, 60, 11) (6953, 1, 60, 11)
+test shape: (6953, 60, 11) (6953, 60, 11)
+mse:0.9056742787361145, mae:0.6667218804359436
+Use GPU: cuda:0
+>>>>>>>start training : Aotizhongxin_Crossformer_36_24_10_Crossformer_custom_ftM_sl36_ll18_pl24_dm768_nh8_el2_dl1_df768_fc3_ebtimeF_dtTrue_Exp_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2431
+val 3485
+test 6989
+Epoch: 1 cost time: 4.723683595657349
+Epoch: 1, Steps: 75 | Train Loss: 0.6701342 Vali Loss: 0.6327346 Test Loss: 0.5676006
+Validation loss decreased (inf --> 0.632735).  Saving model ...
+Updating learning rate to 0.0001
+Epoch: 2 cost time: 5.194013833999634
+Epoch: 2, Steps: 75 | Train Loss: 0.4956327 Vali Loss: 0.6984212 Test Loss: 0.6291103
+EarlyStopping counter: 1 out of 3
+Updating learning rate to 5e-05
+Epoch: 3 cost time: 5.187918663024902
+Epoch: 3, Steps: 75 | Train Loss: 0.4385575 Vali Loss: 0.6681103 Test Loss: 0.6017165
+EarlyStopping counter: 2 out of 3
+Updating learning rate to 2.5e-05
+Epoch: 4 cost time: 5.083295583724976
+Epoch: 4, Steps: 75 | Train Loss: 0.4028195 Vali Loss: 0.7238038 Test Loss: 0.6326095
+EarlyStopping counter: 3 out of 3
+Early stopping
+>>>>>>>testing : Aotizhongxin_Crossformer_36_24_10_Crossformer_custom_ftM_sl36_ll18_pl24_dm768_nh8_el2_dl1_df768_fc3_ebtimeF_dtTrue_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test 6989
+test shape: (6989, 1, 24, 11) (6989, 1, 24, 11)
+test shape: (6989, 24, 11) (6989, 24, 11)
+mse:0.5676004886627197, mae:0.45521119236946106
+Use GPU: cuda:0
+>>>>>>>start training : Aotizhongxin_Crossformer_36_36_10_Crossformer_custom_ftM_sl36_ll18_pl36_dm768_nh8_el2_dl1_df768_fc3_ebtimeF_dtTrue_Exp_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2419
+val 3473
+test 6977
+Epoch: 1 cost time: 5.023634672164917
+Epoch: 1, Steps: 75 | Train Loss: 0.6900428 Vali Loss: 0.7941536 Test Loss: 0.6911094
+Validation loss decreased (inf --> 0.794154).  Saving model ...
+Updating learning rate to 0.0001
+Epoch: 2 cost time: 5.481470584869385
+Epoch: 2, Steps: 75 | Train Loss: 0.5279800 Vali Loss: 0.8286182 Test Loss: 0.7209779
+EarlyStopping counter: 1 out of 3
+Updating learning rate to 5e-05
+Epoch: 3 cost time: 5.230066299438477
+Epoch: 3, Steps: 75 | Train Loss: 0.4595162 Vali Loss: 0.9201290 Test Loss: 0.7496814
+EarlyStopping counter: 2 out of 3
+Updating learning rate to 2.5e-05
+Epoch: 4 cost time: 5.084400653839111
+Epoch: 4, Steps: 75 | Train Loss: 0.4249214 Vali Loss: 0.8673275 Test Loss: 0.7224331
+EarlyStopping counter: 3 out of 3
+Early stopping
+>>>>>>>testing : Aotizhongxin_Crossformer_36_36_10_Crossformer_custom_ftM_sl36_ll18_pl36_dm768_nh8_el2_dl1_df768_fc3_ebtimeF_dtTrue_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test 6977
+test shape: (6977, 1, 36, 11) (6977, 1, 36, 11)
+test shape: (6977, 36, 11) (6977, 36, 11)
+mse:0.6911090612411499, mae:0.5351700782775879
+Use GPU: cuda:0
+>>>>>>>start training : Aotizhongxin_Crossformer_36_48_10_Crossformer_custom_ftM_sl36_ll18_pl48_dm768_nh8_el2_dl1_df768_fc3_ebtimeF_dtTrue_Exp_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2407
+val 3461
+test 6965
+Epoch: 1 cost time: 5.49629282951355
+Epoch: 1, Steps: 75 | Train Loss: 0.7311213 Vali Loss: 0.8655493 Test Loss: 0.7297179
+Validation loss decreased (inf --> 0.865549).  Saving model ...
+Updating learning rate to 0.0001
+Epoch: 2 cost time: 4.740791082382202
+Epoch: 2, Steps: 75 | Train Loss: 0.5570774 Vali Loss: 1.1284347 Test Loss: 0.9346941
+EarlyStopping counter: 1 out of 3
+Updating learning rate to 5e-05
+Epoch: 3 cost time: 5.076146364212036
+Epoch: 3, Steps: 75 | Train Loss: 0.4911204 Vali Loss: 0.9033873 Test Loss: 0.7685102
+EarlyStopping counter: 2 out of 3
+Updating learning rate to 2.5e-05
+Epoch: 4 cost time: 4.840026378631592
+Epoch: 4, Steps: 75 | Train Loss: 0.4554299 Vali Loss: 0.9456505 Test Loss: 0.7864780
+EarlyStopping counter: 3 out of 3
+Early stopping
+>>>>>>>testing : Aotizhongxin_Crossformer_36_48_10_Crossformer_custom_ftM_sl36_ll18_pl48_dm768_nh8_el2_dl1_df768_fc3_ebtimeF_dtTrue_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test 6965
+test shape: (6965, 1, 48, 11) (6965, 1, 48, 11)
+test shape: (6965, 48, 11) (6965, 48, 11)
+mse:0.7297179102897644, mae:0.5591088533401489
+Use GPU: cuda:0
+>>>>>>>start training : Aotizhongxin_Crossformer_36_60_10_Crossformer_custom_ftM_sl36_ll18_pl60_dm768_nh8_el2_dl1_df768_fc3_ebtimeF_dtTrue_Exp_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2395
+val 3449
+test 6953
+Epoch: 1 cost time: 5.167905330657959
+Epoch: 1, Steps: 74 | Train Loss: 0.7423017 Vali Loss: 0.9063259 Test Loss: 0.7652355
+Validation loss decreased (inf --> 0.906326).  Saving model ...
+Updating learning rate to 0.0001
+Epoch: 2 cost time: 5.146782159805298
+Epoch: 2, Steps: 74 | Train Loss: 0.5715174 Vali Loss: 1.0110185 Test Loss: 0.8591355
+EarlyStopping counter: 1 out of 3
+Updating learning rate to 5e-05
+Epoch: 3 cost time: 5.128348350524902
+Epoch: 3, Steps: 74 | Train Loss: 0.5096386 Vali Loss: 1.0818501 Test Loss: 0.8962945
+EarlyStopping counter: 2 out of 3
+Updating learning rate to 2.5e-05
+Epoch: 4 cost time: 4.587786912918091
+Epoch: 4, Steps: 74 | Train Loss: 0.4677098 Vali Loss: 1.0288903 Test Loss: 0.8822400
+EarlyStopping counter: 3 out of 3
+Early stopping
+>>>>>>>testing : Aotizhongxin_Crossformer_36_60_10_Crossformer_custom_ftM_sl36_ll18_pl60_dm768_nh8_el2_dl1_df768_fc3_ebtimeF_dtTrue_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test 6953
+test shape: (6953, 1, 60, 11) (6953, 1, 60, 11)
+test shape: (6953, 60, 11) (6953, 60, 11)
+mse:0.7652356028556824, mae:0.5792357921600342

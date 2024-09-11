@@ -1,0 +1,240 @@
+Use CPU
+>>>>>>>start training : Aotizhongxin_Informer_36_24_5_Informer_custom_ftM_sl36_ll18_pl24_dm768_nh8_el2_dl2_df768_fc3_ebtimeF_dtTrue_Exp_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 1204
+val 3485
+test 6989
+Epoch: 1 cost time: 19.75628685951233
+Epoch: 1, Steps: 37 | Train Loss: 0.6767298 Vali Loss: 1.0770007 Test Loss: 1.0679995
+Validation loss decreased (inf --> 1.077001).  Saving model ...
+Updating learning rate to 0.0001
+Epoch: 2 cost time: 19.44200372695923
+Epoch: 2, Steps: 37 | Train Loss: 0.4916796 Vali Loss: 1.1145936 Test Loss: 1.1036232
+EarlyStopping counter: 1 out of 3
+Updating learning rate to 5e-05
+Epoch: 3 cost time: 20.059539794921875
+Epoch: 3, Steps: 37 | Train Loss: 0.3894317 Vali Loss: 1.0805641 Test Loss: 1.1102782
+EarlyStopping counter: 2 out of 3
+Updating learning rate to 2.5e-05
+Epoch: 4 cost time: 19.79920721054077
+Epoch: 4, Steps: 37 | Train Loss: 0.3363254 Vali Loss: 1.1451834 Test Loss: 1.1486360
+EarlyStopping counter: 3 out of 3
+Early stopping
+>>>>>>>testing : Aotizhongxin_Informer_36_24_5_Informer_custom_ftM_sl36_ll18_pl24_dm768_nh8_el2_dl2_df768_fc3_ebtimeF_dtTrue_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test 6989
+test shape: (6989, 1, 24, 11) (6989, 1, 24, 11)
+test shape: (6989, 24, 11) (6989, 24, 11)
+mse:1.0680168867111206, mae:0.7240973114967346
+Use CPU
+>>>>>>>start training : Aotizhongxin_Informer_36_36_5_Informer_custom_ftM_sl36_ll18_pl36_dm768_nh8_el2_dl2_df768_fc3_ebtimeF_dtTrue_Exp_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 1192
+val 3473
+test 6977
+Epoch: 1 cost time: 21.728129386901855
+Epoch: 1, Steps: 37 | Train Loss: 0.6860356 Vali Loss: 1.2905395 Test Loss: 1.2060806
+Validation loss decreased (inf --> 1.290540).  Saving model ...
+Updating learning rate to 0.0001
+Epoch: 2 cost time: 22.095628261566162
+Epoch: 2, Steps: 37 | Train Loss: 0.5252202 Vali Loss: 1.1111404 Test Loss: 1.1050642
+Validation loss decreased (1.290540 --> 1.111140).  Saving model ...
+Updating learning rate to 5e-05
+Epoch: 3 cost time: 22.28640055656433
+Epoch: 3, Steps: 37 | Train Loss: 0.4220322 Vali Loss: 1.4800707 Test Loss: 1.3294632
+EarlyStopping counter: 1 out of 3
+Updating learning rate to 2.5e-05
+Epoch: 4 cost time: 21.993188858032227
+Epoch: 4, Steps: 37 | Train Loss: 0.3667903 Vali Loss: 1.2543418 Test Loss: 1.2048306
+EarlyStopping counter: 2 out of 3
+Updating learning rate to 1.25e-05
+Epoch: 5 cost time: 22.394600868225098
+Epoch: 5, Steps: 37 | Train Loss: 0.3375693 Vali Loss: 1.3308976 Test Loss: 1.2529411
+EarlyStopping counter: 3 out of 3
+Early stopping
+>>>>>>>testing : Aotizhongxin_Informer_36_36_5_Informer_custom_ftM_sl36_ll18_pl36_dm768_nh8_el2_dl2_df768_fc3_ebtimeF_dtTrue_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test 6977
+test shape: (6977, 1, 36, 11) (6977, 1, 36, 11)
+test shape: (6977, 36, 11) (6977, 36, 11)
+mse:1.1053016185760498, mae:0.732125997543335
+Use CPU
+>>>>>>>start training : Aotizhongxin_Informer_36_48_5_Informer_custom_ftM_sl36_ll18_pl48_dm768_nh8_el2_dl2_df768_fc3_ebtimeF_dtTrue_Exp_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 1180
+val 3461
+test 6965
+Epoch: 1 cost time: 22.417412996292114
+Epoch: 1, Steps: 36 | Train Loss: 0.7137637 Vali Loss: 1.3038576 Test Loss: 1.2447528
+Validation loss decreased (inf --> 1.303858).  Saving model ...
+Updating learning rate to 0.0001
+Epoch: 2 cost time: 24.465312480926514
+Epoch: 2, Steps: 36 | Train Loss: 0.5447881 Vali Loss: 1.1837941 Test Loss: 1.1820456
+Validation loss decreased (1.303858 --> 1.183794).  Saving model ...
+Updating learning rate to 5e-05
+Epoch: 3 cost time: 24.142144441604614
+Epoch: 3, Steps: 36 | Train Loss: 0.4444192 Vali Loss: 1.2853156 Test Loss: 1.2409239
+EarlyStopping counter: 1 out of 3
+Updating learning rate to 2.5e-05
+Epoch: 4 cost time: 24.1481716632843
+Epoch: 4, Steps: 36 | Train Loss: 0.3833672 Vali Loss: 1.3904396 Test Loss: 1.2770200
+EarlyStopping counter: 2 out of 3
+Updating learning rate to 1.25e-05
+Epoch: 5 cost time: 24.22718119621277
+Epoch: 5, Steps: 36 | Train Loss: 0.3605947 Vali Loss: 1.3938397 Test Loss: 1.2838136
+EarlyStopping counter: 3 out of 3
+Early stopping
+>>>>>>>testing : Aotizhongxin_Informer_36_48_5_Informer_custom_ftM_sl36_ll18_pl48_dm768_nh8_el2_dl2_df768_fc3_ebtimeF_dtTrue_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test 6965
+test shape: (6965, 1, 48, 11) (6965, 1, 48, 11)
+test shape: (6965, 48, 11) (6965, 48, 11)
+mse:1.1820755004882812, mae:0.7693073153495789
+Use CPU
+>>>>>>>start training : Aotizhongxin_Informer_36_60_5_Informer_custom_ftM_sl36_ll18_pl60_dm768_nh8_el2_dl2_df768_fc3_ebtimeF_dtTrue_Exp_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 1168
+val 3449
+test 6953
+Epoch: 1 cost time: 26.162641286849976
+Epoch: 1, Steps: 36 | Train Loss: 0.7370559 Vali Loss: 1.3199972 Test Loss: 1.2015803
+Validation loss decreased (inf --> 1.319997).  Saving model ...
+Updating learning rate to 0.0001
+Epoch: 2 cost time: 25.694617748260498
+Epoch: 2, Steps: 36 | Train Loss: 0.5466110 Vali Loss: 1.4699786 Test Loss: 1.2939384
+EarlyStopping counter: 1 out of 3
+Updating learning rate to 5e-05
+Epoch: 3 cost time: 25.529032230377197
+Epoch: 3, Steps: 36 | Train Loss: 0.4378566 Vali Loss: 1.4441071 Test Loss: 1.3258862
+EarlyStopping counter: 2 out of 3
+Updating learning rate to 2.5e-05
+Epoch: 4 cost time: 23.40257215499878
+Epoch: 4, Steps: 36 | Train Loss: 0.3881383 Vali Loss: 1.3960438 Test Loss: 1.2989494
+EarlyStopping counter: 3 out of 3
+Early stopping
+>>>>>>>testing : Aotizhongxin_Informer_36_60_5_Informer_custom_ftM_sl36_ll18_pl60_dm768_nh8_el2_dl2_df768_fc3_ebtimeF_dtTrue_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test 6953
+test shape: (6953, 1, 60, 11) (6953, 1, 60, 11)
+test shape: (6953, 60, 11) (6953, 60, 11)
+mse:1.2015098333358765, mae:0.7859588861465454
+Use CPU
+>>>>>>>start training : Aotizhongxin_Informer_36_24_10_Informer_custom_ftM_sl36_ll18_pl24_dm768_nh8_el2_dl2_df768_fc3_ebtimeF_dtTrue_Exp_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2431
+val 3485
+test 6989
+Epoch: 1 cost time: 38.92085361480713
+Epoch: 1, Steps: 75 | Train Loss: 0.5810126 Vali Loss: 1.0140361 Test Loss: 0.8983980
+Validation loss decreased (inf --> 1.014036).  Saving model ...
+Updating learning rate to 0.0001
+Epoch: 2 cost time: 39.66453242301941
+Epoch: 2, Steps: 75 | Train Loss: 0.4108183 Vali Loss: 0.9752617 Test Loss: 0.8299583
+Validation loss decreased (1.014036 --> 0.975262).  Saving model ...
+Updating learning rate to 5e-05
+Epoch: 3 cost time: 39.34044861793518
+Epoch: 3, Steps: 75 | Train Loss: 0.3350966 Vali Loss: 0.9359420 Test Loss: 0.8526964
+Validation loss decreased (0.975262 --> 0.935942).  Saving model ...
+Updating learning rate to 2.5e-05
+Epoch: 4 cost time: 39.41742992401123
+Epoch: 4, Steps: 75 | Train Loss: 0.3004027 Vali Loss: 0.9688938 Test Loss: 0.9133838
+EarlyStopping counter: 1 out of 3
+Updating learning rate to 1.25e-05
+Epoch: 5 cost time: 39.26497793197632
+Epoch: 5, Steps: 75 | Train Loss: 0.2844819 Vali Loss: 0.9838002 Test Loss: 0.9093891
+EarlyStopping counter: 2 out of 3
+Updating learning rate to 6.25e-06
+Epoch: 6 cost time: 38.655659675598145
+Epoch: 6, Steps: 75 | Train Loss: 0.2756296 Vali Loss: 0.9933501 Test Loss: 0.9152424
+EarlyStopping counter: 3 out of 3
+Early stopping
+>>>>>>>testing : Aotizhongxin_Informer_36_24_10_Informer_custom_ftM_sl36_ll18_pl24_dm768_nh8_el2_dl2_df768_fc3_ebtimeF_dtTrue_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test 6989
+test shape: (6989, 1, 24, 11) (6989, 1, 24, 11)
+test shape: (6989, 24, 11) (6989, 24, 11)
+mse:0.8526797294616699, mae:0.6069073677062988
+Use CPU
+>>>>>>>start training : Aotizhongxin_Informer_36_36_10_Informer_custom_ftM_sl36_ll18_pl36_dm768_nh8_el2_dl2_df768_fc3_ebtimeF_dtTrue_Exp_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2419
+val 3473
+test 6977
+Epoch: 1 cost time: 41.23317337036133
+Epoch: 1, Steps: 75 | Train Loss: 0.6003800 Vali Loss: 1.1509540 Test Loss: 0.9611776
+Validation loss decreased (inf --> 1.150954).  Saving model ...
+Updating learning rate to 0.0001
+Epoch: 2 cost time: 43.188117027282715
+Epoch: 2, Steps: 75 | Train Loss: 0.4453173 Vali Loss: 1.1877044 Test Loss: 1.0438927
+EarlyStopping counter: 1 out of 3
+Updating learning rate to 5e-05
+Epoch: 3 cost time: 42.979900598526
+Epoch: 3, Steps: 75 | Train Loss: 0.3657033 Vali Loss: 1.1271487 Test Loss: 1.0053016
+Validation loss decreased (1.150954 --> 1.127149).  Saving model ...
+Updating learning rate to 2.5e-05
+Epoch: 4 cost time: 43.33983635902405
+Epoch: 4, Steps: 75 | Train Loss: 0.3257205 Vali Loss: 1.1334602 Test Loss: 1.0458001
+EarlyStopping counter: 1 out of 3
+Updating learning rate to 1.25e-05
+Epoch: 5 cost time: 43.4692804813385
+Epoch: 5, Steps: 75 | Train Loss: 0.3076202 Vali Loss: 1.1273844 Test Loss: 1.0298427
+EarlyStopping counter: 2 out of 3
+Updating learning rate to 6.25e-06
+Epoch: 6 cost time: 43.32428550720215
+Epoch: 6, Steps: 75 | Train Loss: 0.2998564 Vali Loss: 1.1544318 Test Loss: 1.0514382
+EarlyStopping counter: 3 out of 3
+Early stopping
+>>>>>>>testing : Aotizhongxin_Informer_36_36_10_Informer_custom_ftM_sl36_ll18_pl36_dm768_nh8_el2_dl2_df768_fc3_ebtimeF_dtTrue_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test 6977
+test shape: (6977, 1, 36, 11) (6977, 1, 36, 11)
+test shape: (6977, 36, 11) (6977, 36, 11)
+mse:1.00570547580719, mae:0.6789197325706482
+Use CPU
+>>>>>>>start training : Aotizhongxin_Informer_36_48_10_Informer_custom_ftM_sl36_ll18_pl48_dm768_nh8_el2_dl2_df768_fc3_ebtimeF_dtTrue_Exp_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2407
+val 3461
+test 6965
+Epoch: 1 cost time: 48.2849326133728
+Epoch: 1, Steps: 75 | Train Loss: 0.6194279 Vali Loss: 1.1682812 Test Loss: 0.9870373
+Validation loss decreased (inf --> 1.168281).  Saving model ...
+Updating learning rate to 0.0001
+Epoch: 2 cost time: 48.487351179122925
+Epoch: 2, Steps: 75 | Train Loss: 0.4776465 Vali Loss: 1.0184723 Test Loss: 1.0493582
+Validation loss decreased (1.168281 --> 1.018472).  Saving model ...
+Updating learning rate to 5e-05
+Epoch: 3 cost time: 48.29694628715515
+Epoch: 3, Steps: 75 | Train Loss: 0.3920536 Vali Loss: 1.1629626 Test Loss: 1.1488867
+EarlyStopping counter: 1 out of 3
+Updating learning rate to 2.5e-05
+Epoch: 4 cost time: 48.66351628303528
+Epoch: 4, Steps: 75 | Train Loss: 0.3491179 Vali Loss: 1.1638091 Test Loss: 1.1671749
+EarlyStopping counter: 2 out of 3
+Updating learning rate to 1.25e-05
+Epoch: 5 cost time: 48.361411571502686
+Epoch: 5, Steps: 75 | Train Loss: 0.3292478 Vali Loss: 1.1663134 Test Loss: 1.2157078
+EarlyStopping counter: 3 out of 3
+Early stopping
+>>>>>>>testing : Aotizhongxin_Informer_36_48_10_Informer_custom_ftM_sl36_ll18_pl48_dm768_nh8_el2_dl2_df768_fc3_ebtimeF_dtTrue_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test 6965
+test shape: (6965, 1, 48, 11) (6965, 1, 48, 11)
+test shape: (6965, 48, 11) (6965, 48, 11)
+mse:1.049408197402954, mae:0.7094588875770569
+Use CPU
+>>>>>>>start training : Aotizhongxin_Informer_36_60_10_Informer_custom_ftM_sl36_ll18_pl60_dm768_nh8_el2_dl2_df768_fc3_ebtimeF_dtTrue_Exp_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2395
+val 3449
+test 6953
+Epoch: 1 cost time: 51.42249512672424
+Epoch: 1, Steps: 74 | Train Loss: 0.6268735 Vali Loss: 1.2135993 Test Loss: 1.0917181
+Validation loss decreased (inf --> 1.213599).  Saving model ...
+Updating learning rate to 0.0001
+Epoch: 2 cost time: 50.98598289489746
+Epoch: 2, Steps: 74 | Train Loss: 0.4864448 Vali Loss: 1.1828362 Test Loss: 1.0694224
+Validation loss decreased (1.213599 --> 1.182836).  Saving model ...
+Updating learning rate to 5e-05
+Epoch: 3 cost time: 49.5570273399353
+Epoch: 3, Steps: 74 | Train Loss: 0.3975662 Vali Loss: 1.3187466 Test Loss: 1.2236376
+EarlyStopping counter: 1 out of 3
+Updating learning rate to 2.5e-05
+Epoch: 4 cost time: 52.3292715549469
+Epoch: 4, Steps: 74 | Train Loss: 0.3608229 Vali Loss: 1.2094114 Test Loss: 1.1985928
+EarlyStopping counter: 2 out of 3
+Updating learning rate to 1.25e-05
+Epoch: 5 cost time: 51.155803203582764
+Epoch: 5, Steps: 74 | Train Loss: 0.3379465 Vali Loss: 1.2141221 Test Loss: 1.2095269
+EarlyStopping counter: 3 out of 3
+Early stopping
+>>>>>>>testing : Aotizhongxin_Informer_36_60_10_Informer_custom_ftM_sl36_ll18_pl60_dm768_nh8_el2_dl2_df768_fc3_ebtimeF_dtTrue_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test 6953
+test shape: (6953, 1, 60, 11) (6953, 1, 60, 11)
+test shape: (6953, 60, 11) (6953, 60, 11)
+mse:1.0693110227584839, mae:0.7107187509536743

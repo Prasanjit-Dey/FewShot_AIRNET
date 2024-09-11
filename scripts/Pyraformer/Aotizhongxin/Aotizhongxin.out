@@ -1,0 +1,288 @@
+Use GPU: cuda:0
+>>>>>>>start training : Aotizhongxin_Pyraformer_36_24_5_Pyraformer_custom_ftM_sl36_ll18_pl24_dm768_nh8_el2_dl1_df768_fc3_ebtimeF_dtTrue_Exp_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 1204
+val 3485
+test 6989
+Epoch: 1 cost time: 2.492041826248169
+Epoch: 1, Steps: 37 | Train Loss: 0.5943256 Vali Loss: 1.0405978 Test Loss: 1.0681109
+Validation loss decreased (inf --> 1.040598).  Saving model ...
+Updating learning rate to 0.0001
+Epoch: 2 cost time: 1.3407785892486572
+Epoch: 2, Steps: 37 | Train Loss: 0.4496242 Vali Loss: 0.8967022 Test Loss: 0.9391309
+Validation loss decreased (1.040598 --> 0.896702).  Saving model ...
+Updating learning rate to 5e-05
+Epoch: 3 cost time: 1.3090431690216064
+Epoch: 3, Steps: 37 | Train Loss: 0.3813427 Vali Loss: 0.9085204 Test Loss: 1.0193348
+EarlyStopping counter: 1 out of 3
+Updating learning rate to 2.5e-05
+Epoch: 4 cost time: 1.280336856842041
+Epoch: 4, Steps: 37 | Train Loss: 0.3436519 Vali Loss: 0.9066419 Test Loss: 1.0090028
+EarlyStopping counter: 2 out of 3
+Updating learning rate to 1.25e-05
+Epoch: 5 cost time: 1.314154863357544
+Epoch: 5, Steps: 37 | Train Loss: 0.3243085 Vali Loss: 0.8958805 Test Loss: 0.9950770
+Validation loss decreased (0.896702 --> 0.895881).  Saving model ...
+Updating learning rate to 6.25e-06
+Epoch: 6 cost time: 1.311603307723999
+Epoch: 6, Steps: 37 | Train Loss: 0.3135315 Vali Loss: 0.8787141 Test Loss: 0.9844127
+Validation loss decreased (0.895881 --> 0.878714).  Saving model ...
+Updating learning rate to 3.125e-06
+Epoch: 7 cost time: 1.3283648490905762
+Epoch: 7, Steps: 37 | Train Loss: 0.3115609 Vali Loss: 0.8689999 Test Loss: 0.9749001
+Validation loss decreased (0.878714 --> 0.869000).  Saving model ...
+Updating learning rate to 1.5625e-06
+Epoch: 8 cost time: 1.308182716369629
+Epoch: 8, Steps: 37 | Train Loss: 0.3094728 Vali Loss: 0.8784811 Test Loss: 0.9824314
+EarlyStopping counter: 1 out of 3
+Updating learning rate to 7.8125e-07
+Epoch: 9 cost time: 1.3832988739013672
+Epoch: 9, Steps: 37 | Train Loss: 0.3058010 Vali Loss: 0.8769742 Test Loss: 0.9824230
+EarlyStopping counter: 2 out of 3
+Updating learning rate to 3.90625e-07
+Epoch: 10 cost time: 1.329390525817871
+Epoch: 10, Steps: 37 | Train Loss: 0.3060184 Vali Loss: 0.8811660 Test Loss: 0.9821780
+EarlyStopping counter: 3 out of 3
+Early stopping
+>>>>>>>testing : Aotizhongxin_Pyraformer_36_24_5_Pyraformer_custom_ftM_sl36_ll18_pl24_dm768_nh8_el2_dl1_df768_fc3_ebtimeF_dtTrue_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test 6989
+test shape: (6989, 1, 24, 11) (6989, 1, 24, 11)
+test shape: (6989, 24, 11) (6989, 24, 11)
+mse:0.9749000668525696, mae:0.6795232892036438
+Use GPU: cuda:0
+>>>>>>>start training : Aotizhongxin_Pyraformer_36_36_5_Pyraformer_custom_ftM_sl36_ll18_pl36_dm768_nh8_el2_dl1_df768_fc3_ebtimeF_dtTrue_Exp_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 1192
+val 3473
+test 6977
+Epoch: 1 cost time: 2.312831163406372
+Epoch: 1, Steps: 37 | Train Loss: 0.6401089 Vali Loss: 1.2284722 Test Loss: 1.2036632
+Validation loss decreased (inf --> 1.228472).  Saving model ...
+Updating learning rate to 0.0001
+Epoch: 2 cost time: 1.3134715557098389
+Epoch: 2, Steps: 37 | Train Loss: 0.5016640 Vali Loss: 1.0475016 Test Loss: 1.1421601
+Validation loss decreased (1.228472 --> 1.047502).  Saving model ...
+Updating learning rate to 5e-05
+Epoch: 3 cost time: 1.3776352405548096
+Epoch: 3, Steps: 37 | Train Loss: 0.4292617 Vali Loss: 1.1376257 Test Loss: 1.1878494
+EarlyStopping counter: 1 out of 3
+Updating learning rate to 2.5e-05
+Epoch: 4 cost time: 1.3949496746063232
+Epoch: 4, Steps: 37 | Train Loss: 0.3842039 Vali Loss: 1.0001272 Test Loss: 1.1021858
+Validation loss decreased (1.047502 --> 1.000127).  Saving model ...
+Updating learning rate to 1.25e-05
+Epoch: 5 cost time: 1.2900874614715576
+Epoch: 5, Steps: 37 | Train Loss: 0.3604758 Vali Loss: 1.0288221 Test Loss: 1.1184796
+EarlyStopping counter: 1 out of 3
+Updating learning rate to 6.25e-06
+Epoch: 6 cost time: 1.3533751964569092
+Epoch: 6, Steps: 37 | Train Loss: 0.3493291 Vali Loss: 1.0024271 Test Loss: 1.1017975
+EarlyStopping counter: 2 out of 3
+Updating learning rate to 3.125e-06
+Epoch: 7 cost time: 1.4052515029907227
+Epoch: 7, Steps: 37 | Train Loss: 0.3467806 Vali Loss: 0.9988819 Test Loss: 1.0966758
+Validation loss decreased (1.000127 --> 0.998882).  Saving model ...
+Updating learning rate to 1.5625e-06
+Epoch: 8 cost time: 1.4111077785491943
+Epoch: 8, Steps: 37 | Train Loss: 0.3454473 Vali Loss: 1.0001484 Test Loss: 1.1006502
+EarlyStopping counter: 1 out of 3
+Updating learning rate to 7.8125e-07
+Epoch: 9 cost time: 1.2941784858703613
+Epoch: 9, Steps: 37 | Train Loss: 0.3427584 Vali Loss: 1.0102239 Test Loss: 1.1053078
+EarlyStopping counter: 2 out of 3
+Updating learning rate to 3.90625e-07
+Epoch: 10 cost time: 1.3898169994354248
+Epoch: 10, Steps: 37 | Train Loss: 0.3428368 Vali Loss: 1.0067106 Test Loss: 1.1012226
+EarlyStopping counter: 3 out of 3
+Early stopping
+>>>>>>>testing : Aotizhongxin_Pyraformer_36_36_5_Pyraformer_custom_ftM_sl36_ll18_pl36_dm768_nh8_el2_dl1_df768_fc3_ebtimeF_dtTrue_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test 6977
+test shape: (6977, 1, 36, 11) (6977, 1, 36, 11)
+test shape: (6977, 36, 11) (6977, 36, 11)
+mse:1.0966756343841553, mae:0.7403131723403931
+Use GPU: cuda:0
+>>>>>>>start training : Aotizhongxin_Pyraformer_36_48_5_Pyraformer_custom_ftM_sl36_ll18_pl48_dm768_nh8_el2_dl1_df768_fc3_ebtimeF_dtTrue_Exp_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 1180
+val 3461
+test 6965
+Epoch: 1 cost time: 2.2940988540649414
+Epoch: 1, Steps: 36 | Train Loss: 0.6825691 Vali Loss: 1.0597044 Test Loss: 1.1146917
+Validation loss decreased (inf --> 1.059704).  Saving model ...
+Updating learning rate to 0.0001
+Epoch: 2 cost time: 1.3263707160949707
+Epoch: 2, Steps: 36 | Train Loss: 0.5452868 Vali Loss: 1.1582717 Test Loss: 1.1903303
+EarlyStopping counter: 1 out of 3
+Updating learning rate to 5e-05
+Epoch: 3 cost time: 1.3476223945617676
+Epoch: 3, Steps: 36 | Train Loss: 0.4725533 Vali Loss: 1.1296118 Test Loss: 1.1980137
+EarlyStopping counter: 2 out of 3
+Updating learning rate to 2.5e-05
+Epoch: 4 cost time: 1.3136069774627686
+Epoch: 4, Steps: 36 | Train Loss: 0.4369425 Vali Loss: 1.1283866 Test Loss: 1.1632857
+EarlyStopping counter: 3 out of 3
+Early stopping
+>>>>>>>testing : Aotizhongxin_Pyraformer_36_48_5_Pyraformer_custom_ftM_sl36_ll18_pl48_dm768_nh8_el2_dl1_df768_fc3_ebtimeF_dtTrue_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test 6965
+test shape: (6965, 1, 48, 11) (6965, 1, 48, 11)
+test shape: (6965, 48, 11) (6965, 48, 11)
+mse:1.1146914958953857, mae:0.7541016340255737
+Use GPU: cuda:0
+>>>>>>>start training : Aotizhongxin_Pyraformer_36_60_5_Pyraformer_custom_ftM_sl36_ll18_pl60_dm768_nh8_el2_dl1_df768_fc3_ebtimeF_dtTrue_Exp_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 1168
+val 3449
+test 6953
+Epoch: 1 cost time: 2.3376991748809814
+Epoch: 1, Steps: 36 | Train Loss: 0.7041969 Vali Loss: 1.2341875 Test Loss: 1.1880037
+Validation loss decreased (inf --> 1.234187).  Saving model ...
+Updating learning rate to 0.0001
+Epoch: 2 cost time: 1.3621151447296143
+Epoch: 2, Steps: 36 | Train Loss: 0.5757693 Vali Loss: 1.2432382 Test Loss: 1.2465738
+EarlyStopping counter: 1 out of 3
+Updating learning rate to 5e-05
+Epoch: 3 cost time: 1.2628700733184814
+Epoch: 3, Steps: 36 | Train Loss: 0.5077189 Vali Loss: 1.0349767 Test Loss: 1.1332773
+Validation loss decreased (1.234187 --> 1.034977).  Saving model ...
+Updating learning rate to 2.5e-05
+Epoch: 4 cost time: 1.3327527046203613
+Epoch: 4, Steps: 36 | Train Loss: 0.4759361 Vali Loss: 1.0520167 Test Loss: 1.1445843
+EarlyStopping counter: 1 out of 3
+Updating learning rate to 1.25e-05
+Epoch: 5 cost time: 1.2526288032531738
+Epoch: 5, Steps: 36 | Train Loss: 0.4471190 Vali Loss: 1.1571158 Test Loss: 1.2069414
+EarlyStopping counter: 2 out of 3
+Updating learning rate to 6.25e-06
+Epoch: 6 cost time: 1.3467867374420166
+Epoch: 6, Steps: 36 | Train Loss: 0.4320200 Vali Loss: 1.1481920 Test Loss: 1.1881320
+EarlyStopping counter: 3 out of 3
+Early stopping
+>>>>>>>testing : Aotizhongxin_Pyraformer_36_60_5_Pyraformer_custom_ftM_sl36_ll18_pl60_dm768_nh8_el2_dl1_df768_fc3_ebtimeF_dtTrue_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test 6953
+test shape: (6953, 1, 60, 11) (6953, 1, 60, 11)
+test shape: (6953, 60, 11) (6953, 60, 11)
+mse:1.1332768201828003, mae:0.7548930048942566
+Use GPU: cuda:0
+>>>>>>>start training : Aotizhongxin_Pyraformer_36_24_10_Pyraformer_custom_ftM_sl36_ll18_pl24_dm768_nh8_el2_dl1_df768_fc3_ebtimeF_dtTrue_Exp_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2431
+val 3485
+test 6989
+Epoch: 1 cost time: 3.050022602081299
+Epoch: 1, Steps: 75 | Train Loss: 0.5238602 Vali Loss: 0.8557481 Test Loss: 0.7825392
+Validation loss decreased (inf --> 0.855748).  Saving model ...
+Updating learning rate to 0.0001
+Epoch: 2 cost time: 1.9473683834075928
+Epoch: 2, Steps: 75 | Train Loss: 0.3903038 Vali Loss: 0.7964008 Test Loss: 0.7433999
+Validation loss decreased (0.855748 --> 0.796401).  Saving model ...
+Updating learning rate to 5e-05
+Epoch: 3 cost time: 2.038975477218628
+Epoch: 3, Steps: 75 | Train Loss: 0.3350620 Vali Loss: 0.7994236 Test Loss: 0.7711254
+EarlyStopping counter: 1 out of 3
+Updating learning rate to 2.5e-05
+Epoch: 4 cost time: 1.9228355884552002
+Epoch: 4, Steps: 75 | Train Loss: 0.3066089 Vali Loss: 0.8161728 Test Loss: 0.7701424
+EarlyStopping counter: 2 out of 3
+Updating learning rate to 1.25e-05
+Epoch: 5 cost time: 1.9563794136047363
+Epoch: 5, Steps: 75 | Train Loss: 0.2893908 Vali Loss: 0.8321340 Test Loss: 0.7728397
+EarlyStopping counter: 3 out of 3
+Early stopping
+>>>>>>>testing : Aotizhongxin_Pyraformer_36_24_10_Pyraformer_custom_ftM_sl36_ll18_pl24_dm768_nh8_el2_dl1_df768_fc3_ebtimeF_dtTrue_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test 6989
+test shape: (6989, 1, 24, 11) (6989, 1, 24, 11)
+test shape: (6989, 24, 11) (6989, 24, 11)
+mse:0.7433997392654419, mae:0.5564124584197998
+Use GPU: cuda:0
+>>>>>>>start training : Aotizhongxin_Pyraformer_36_36_10_Pyraformer_custom_ftM_sl36_ll18_pl36_dm768_nh8_el2_dl1_df768_fc3_ebtimeF_dtTrue_Exp_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2419
+val 3473
+test 6977
+Epoch: 1 cost time: 2.977121114730835
+Epoch: 1, Steps: 75 | Train Loss: 0.5707765 Vali Loss: 1.0025675 Test Loss: 0.9439047
+Validation loss decreased (inf --> 1.002568).  Saving model ...
+Updating learning rate to 0.0001
+Epoch: 2 cost time: 1.952749252319336
+Epoch: 2, Steps: 75 | Train Loss: 0.4296716 Vali Loss: 0.9992859 Test Loss: 0.8992285
+Validation loss decreased (1.002568 --> 0.999286).  Saving model ...
+Updating learning rate to 5e-05
+Epoch: 3 cost time: 1.8898146152496338
+Epoch: 3, Steps: 75 | Train Loss: 0.3619615 Vali Loss: 1.0119481 Test Loss: 0.9029711
+EarlyStopping counter: 1 out of 3
+Updating learning rate to 2.5e-05
+Epoch: 4 cost time: 1.940526008605957
+Epoch: 4, Steps: 75 | Train Loss: 0.3321747 Vali Loss: 0.9080468 Test Loss: 0.8889655
+Validation loss decreased (0.999286 --> 0.908047).  Saving model ...
+Updating learning rate to 1.25e-05
+Epoch: 5 cost time: 1.975905179977417
+Epoch: 5, Steps: 75 | Train Loss: 0.3160968 Vali Loss: 0.8966690 Test Loss: 0.8912673
+Validation loss decreased (0.908047 --> 0.896669).  Saving model ...
+Updating learning rate to 6.25e-06
+Epoch: 6 cost time: 1.9929189682006836
+Epoch: 6, Steps: 75 | Train Loss: 0.3074739 Vali Loss: 0.9126000 Test Loss: 0.8774523
+EarlyStopping counter: 1 out of 3
+Updating learning rate to 3.125e-06
+Epoch: 7 cost time: 2.0142874717712402
+Epoch: 7, Steps: 75 | Train Loss: 0.3036210 Vali Loss: 0.9029784 Test Loss: 0.8702816
+EarlyStopping counter: 2 out of 3
+Updating learning rate to 1.5625e-06
+Epoch: 8 cost time: 1.865990161895752
+Epoch: 8, Steps: 75 | Train Loss: 0.3013375 Vali Loss: 0.9032158 Test Loss: 0.8805110
+EarlyStopping counter: 3 out of 3
+Early stopping
+>>>>>>>testing : Aotizhongxin_Pyraformer_36_36_10_Pyraformer_custom_ftM_sl36_ll18_pl36_dm768_nh8_el2_dl1_df768_fc3_ebtimeF_dtTrue_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test 6977
+test shape: (6977, 1, 36, 11) (6977, 1, 36, 11)
+test shape: (6977, 36, 11) (6977, 36, 11)
+mse:0.8912672996520996, mae:0.6250066161155701
+Use GPU: cuda:0
+>>>>>>>start training : Aotizhongxin_Pyraformer_36_48_10_Pyraformer_custom_ftM_sl36_ll18_pl48_dm768_nh8_el2_dl1_df768_fc3_ebtimeF_dtTrue_Exp_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2407
+val 3461
+test 6965
+Epoch: 1 cost time: 2.989189386367798
+Epoch: 1, Steps: 75 | Train Loss: 0.5918434 Vali Loss: 0.9006806 Test Loss: 0.8709846
+Validation loss decreased (inf --> 0.900681).  Saving model ...
+Updating learning rate to 0.0001
+Epoch: 2 cost time: 1.965080976486206
+Epoch: 2, Steps: 75 | Train Loss: 0.4567653 Vali Loss: 1.1183132 Test Loss: 0.9865813
+EarlyStopping counter: 1 out of 3
+Updating learning rate to 5e-05
+Epoch: 3 cost time: 1.9612634181976318
+Epoch: 3, Steps: 75 | Train Loss: 0.3894385 Vali Loss: 1.0640343 Test Loss: 0.9632524
+EarlyStopping counter: 2 out of 3
+Updating learning rate to 2.5e-05
+Epoch: 4 cost time: 2.007133960723877
+Epoch: 4, Steps: 75 | Train Loss: 0.3591699 Vali Loss: 0.9777523 Test Loss: 0.9279544
+EarlyStopping counter: 3 out of 3
+Early stopping
+>>>>>>>testing : Aotizhongxin_Pyraformer_36_48_10_Pyraformer_custom_ftM_sl36_ll18_pl48_dm768_nh8_el2_dl1_df768_fc3_ebtimeF_dtTrue_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test 6965
+test shape: (6965, 1, 48, 11) (6965, 1, 48, 11)
+test shape: (6965, 48, 11) (6965, 48, 11)
+mse:0.8709844350814819, mae:0.6401457786560059
+Use GPU: cuda:0
+>>>>>>>start training : Aotizhongxin_Pyraformer_36_60_10_Pyraformer_custom_ftM_sl36_ll18_pl60_dm768_nh8_el2_dl1_df768_fc3_ebtimeF_dtTrue_Exp_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2395
+val 3449
+test 6953
+Epoch: 1 cost time: 3.02274751663208
+Epoch: 1, Steps: 74 | Train Loss: 0.6137617 Vali Loss: 0.9968207 Test Loss: 0.9305878
+Validation loss decreased (inf --> 0.996821).  Saving model ...
+Updating learning rate to 0.0001
+Epoch: 2 cost time: 1.9577083587646484
+Epoch: 2, Steps: 74 | Train Loss: 0.4764157 Vali Loss: 0.9572717 Test Loss: 0.9568216
+Validation loss decreased (0.996821 --> 0.957272).  Saving model ...
+Updating learning rate to 5e-05
+Epoch: 3 cost time: 1.9235332012176514
+Epoch: 3, Steps: 74 | Train Loss: 0.4062277 Vali Loss: 1.1506606 Test Loss: 1.0069004
+EarlyStopping counter: 1 out of 3
+Updating learning rate to 2.5e-05
+Epoch: 4 cost time: 1.9986374378204346
+Epoch: 4, Steps: 74 | Train Loss: 0.3686406 Vali Loss: 1.0517417 Test Loss: 1.0164913
+EarlyStopping counter: 2 out of 3
+Updating learning rate to 1.25e-05
+Epoch: 5 cost time: 1.993865728378296
+Epoch: 5, Steps: 74 | Train Loss: 0.3508862 Vali Loss: 1.0611365 Test Loss: 1.0124534
+EarlyStopping counter: 3 out of 3
+Early stopping
+>>>>>>>testing : Aotizhongxin_Pyraformer_36_60_10_Pyraformer_custom_ftM_sl36_ll18_pl60_dm768_nh8_el2_dl1_df768_fc3_ebtimeF_dtTrue_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test 6953
+test shape: (6953, 1, 60, 11) (6953, 1, 60, 11)
+test shape: (6953, 60, 11) (6953, 60, 11)
+mse:0.9568212032318115, mae:0.6777310371398926

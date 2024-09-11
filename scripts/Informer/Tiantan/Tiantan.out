@@ -1,0 +1,248 @@
+Use CPU
+>>>>>>>start training : Tiantan_Informer_36_24_5_Informer_custom_ftM_sl36_ll18_pl24_dm768_nh8_el2_dl2_df768_fc3_ebtimeF_dtTrue_Exp_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 1204
+val 3485
+test 6989
+Epoch: 1 cost time: 26.079188585281372
+Epoch: 1, Steps: 37 | Train Loss: 0.8260138 Vali Loss: 1.0432724 Test Loss: 1.2060100
+Validation loss decreased (inf --> 1.043272).  Saving model ...
+Updating learning rate to 0.0001
+Epoch: 2 cost time: 23.5007541179657
+Epoch: 2, Steps: 37 | Train Loss: 0.6084397 Vali Loss: 0.9969006 Test Loss: 1.1673064
+Validation loss decreased (1.043272 --> 0.996901).  Saving model ...
+Updating learning rate to 5e-05
+Epoch: 3 cost time: 23.8885178565979
+Epoch: 3, Steps: 37 | Train Loss: 0.4737774 Vali Loss: 0.9821778 Test Loss: 1.2640959
+Validation loss decreased (0.996901 --> 0.982178).  Saving model ...
+Updating learning rate to 2.5e-05
+Epoch: 4 cost time: 22.52280282974243
+Epoch: 4, Steps: 37 | Train Loss: 0.4042563 Vali Loss: 1.0195620 Test Loss: 1.2799083
+EarlyStopping counter: 1 out of 3
+Updating learning rate to 1.25e-05
+Epoch: 5 cost time: 20.73991847038269
+Epoch: 5, Steps: 37 | Train Loss: 0.3777950 Vali Loss: 1.0426500 Test Loss: 1.3018795
+EarlyStopping counter: 2 out of 3
+Updating learning rate to 6.25e-06
+Epoch: 6 cost time: 20.431267499923706
+Epoch: 6, Steps: 37 | Train Loss: 0.3616689 Vali Loss: 0.9988273 Test Loss: 1.2791216
+EarlyStopping counter: 3 out of 3
+Early stopping
+>>>>>>>testing : Tiantan_Informer_36_24_5_Informer_custom_ftM_sl36_ll18_pl24_dm768_nh8_el2_dl2_df768_fc3_ebtimeF_dtTrue_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test 6989
+test shape: (6989, 1, 24, 11) (6989, 1, 24, 11)
+test shape: (6989, 24, 11) (6989, 24, 11)
+mse:1.2637720108032227, mae:0.7620148658752441
+Use CPU
+>>>>>>>start training : Tiantan_Informer_36_36_5_Informer_custom_ftM_sl36_ll18_pl36_dm768_nh8_el2_dl2_df768_fc3_ebtimeF_dtTrue_Exp_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 1192
+val 3473
+test 6977
+Epoch: 1 cost time: 22.53442072868347
+Epoch: 1, Steps: 37 | Train Loss: 0.8382951 Vali Loss: 1.0834609 Test Loss: 1.3001946
+Validation loss decreased (inf --> 1.083461).  Saving model ...
+Updating learning rate to 0.0001
+Epoch: 2 cost time: 22.55219841003418
+Epoch: 2, Steps: 37 | Train Loss: 0.6317252 Vali Loss: 1.0080166 Test Loss: 1.2628751
+Validation loss decreased (1.083461 --> 1.008017).  Saving model ...
+Updating learning rate to 5e-05
+Epoch: 3 cost time: 22.086782932281494
+Epoch: 3, Steps: 37 | Train Loss: 0.5115252 Vali Loss: 1.2989718 Test Loss: 1.5048300
+EarlyStopping counter: 1 out of 3
+Updating learning rate to 2.5e-05
+Epoch: 4 cost time: 22.478439331054688
+Epoch: 4, Steps: 37 | Train Loss: 0.4432354 Vali Loss: 1.1616395 Test Loss: 1.3588030
+EarlyStopping counter: 2 out of 3
+Updating learning rate to 1.25e-05
+Epoch: 5 cost time: 26.029677867889404
+Epoch: 5, Steps: 37 | Train Loss: 0.4088042 Vali Loss: 1.2172835 Test Loss: 1.4229407
+EarlyStopping counter: 3 out of 3
+Early stopping
+>>>>>>>testing : Tiantan_Informer_36_36_5_Informer_custom_ftM_sl36_ll18_pl36_dm768_nh8_el2_dl2_df768_fc3_ebtimeF_dtTrue_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test 6977
+test shape: (6977, 1, 36, 11) (6977, 1, 36, 11)
+test shape: (6977, 36, 11) (6977, 36, 11)
+mse:1.2626986503601074, mae:0.7605519890785217
+Use CPU
+>>>>>>>start training : Tiantan_Informer_36_48_5_Informer_custom_ftM_sl36_ll18_pl48_dm768_nh8_el2_dl2_df768_fc3_ebtimeF_dtTrue_Exp_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 1180
+val 3461
+test 6965
+Epoch: 1 cost time: 25.23450517654419
+Epoch: 1, Steps: 36 | Train Loss: 0.8756468 Vali Loss: 1.1146407 Test Loss: 1.3715584
+Validation loss decreased (inf --> 1.114641).  Saving model ...
+Updating learning rate to 0.0001
+Epoch: 2 cost time: 24.079528093338013
+Epoch: 2, Steps: 36 | Train Loss: 0.6582117 Vali Loss: 1.0548772 Test Loss: 1.3036958
+Validation loss decreased (1.114641 --> 1.054877).  Saving model ...
+Updating learning rate to 5e-05
+Epoch: 3 cost time: 24.544657468795776
+Epoch: 3, Steps: 36 | Train Loss: 0.5345030 Vali Loss: 1.1711515 Test Loss: 1.3576177
+EarlyStopping counter: 1 out of 3
+Updating learning rate to 2.5e-05
+Epoch: 4 cost time: 24.616751670837402
+Epoch: 4, Steps: 36 | Train Loss: 0.4639500 Vali Loss: 1.2659317 Test Loss: 1.4320282
+EarlyStopping counter: 2 out of 3
+Updating learning rate to 1.25e-05
+Epoch: 5 cost time: 24.235830545425415
+Epoch: 5, Steps: 36 | Train Loss: 0.4349421 Vali Loss: 1.3039986 Test Loss: 1.4627376
+EarlyStopping counter: 3 out of 3
+Early stopping
+>>>>>>>testing : Tiantan_Informer_36_48_5_Informer_custom_ftM_sl36_ll18_pl48_dm768_nh8_el2_dl2_df768_fc3_ebtimeF_dtTrue_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test 6965
+test shape: (6965, 1, 48, 11) (6965, 1, 48, 11)
+test shape: (6965, 48, 11) (6965, 48, 11)
+mse:1.3037983179092407, mae:0.7778770327568054
+Use CPU
+>>>>>>>start training : Tiantan_Informer_36_60_5_Informer_custom_ftM_sl36_ll18_pl60_dm768_nh8_el2_dl2_df768_fc3_ebtimeF_dtTrue_Exp_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 1168
+val 3449
+test 6953
+Epoch: 1 cost time: 26.044419050216675
+Epoch: 1, Steps: 36 | Train Loss: 0.8916513 Vali Loss: 1.2718384 Test Loss: 1.4049469
+Validation loss decreased (inf --> 1.271838).  Saving model ...
+Updating learning rate to 0.0001
+Epoch: 2 cost time: 29.002830266952515
+Epoch: 2, Steps: 36 | Train Loss: 0.6768372 Vali Loss: 1.3354818 Test Loss: 1.4789296
+EarlyStopping counter: 1 out of 3
+Updating learning rate to 5e-05
+Epoch: 3 cost time: 29.956438779830933
+Epoch: 3, Steps: 36 | Train Loss: 0.5442801 Vali Loss: 1.2968113 Test Loss: 1.5117432
+EarlyStopping counter: 2 out of 3
+Updating learning rate to 2.5e-05
+Epoch: 4 cost time: 27.94215154647827
+Epoch: 4, Steps: 36 | Train Loss: 0.4881113 Vali Loss: 1.2715250 Test Loss: 1.5038503
+Validation loss decreased (1.271838 --> 1.271525).  Saving model ...
+Updating learning rate to 1.25e-05
+Epoch: 5 cost time: 26.31856393814087
+Epoch: 5, Steps: 36 | Train Loss: 0.4546531 Vali Loss: 1.3278756 Test Loss: 1.5271405
+EarlyStopping counter: 1 out of 3
+Updating learning rate to 6.25e-06
+Epoch: 6 cost time: 29.995590448379517
+Epoch: 6, Steps: 36 | Train Loss: 0.4467037 Vali Loss: 1.3437716 Test Loss: 1.5368965
+EarlyStopping counter: 2 out of 3
+Updating learning rate to 3.125e-06
+Epoch: 7 cost time: 27.393846035003662
+Epoch: 7, Steps: 36 | Train Loss: 0.4395963 Vali Loss: 1.3493332 Test Loss: 1.5442632
+EarlyStopping counter: 3 out of 3
+Early stopping
+>>>>>>>testing : Tiantan_Informer_36_60_5_Informer_custom_ftM_sl36_ll18_pl60_dm768_nh8_el2_dl2_df768_fc3_ebtimeF_dtTrue_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test 6953
+test shape: (6953, 1, 60, 11) (6953, 1, 60, 11)
+test shape: (6953, 60, 11) (6953, 60, 11)
+mse:1.5038518905639648, mae:0.8464533090591431
+Use CPU
+>>>>>>>start training : Tiantan_Informer_36_24_10_Informer_custom_ftM_sl36_ll18_pl24_dm768_nh8_el2_dl2_df768_fc3_ebtimeF_dtTrue_Exp_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2431
+val 3485
+test 6989
+Epoch: 1 cost time: 41.96178579330444
+Epoch: 1, Steps: 75 | Train Loss: 0.6891010 Vali Loss: 0.8919265 Test Loss: 0.9218580
+Validation loss decreased (inf --> 0.891927).  Saving model ...
+Updating learning rate to 0.0001
+Epoch: 2 cost time: 44.92191672325134
+Epoch: 2, Steps: 75 | Train Loss: 0.5001598 Vali Loss: 0.9099755 Test Loss: 0.9637232
+EarlyStopping counter: 1 out of 3
+Updating learning rate to 5e-05
+Epoch: 3 cost time: 44.542722940444946
+Epoch: 3, Steps: 75 | Train Loss: 0.4042472 Vali Loss: 0.8683186 Test Loss: 0.9628497
+Validation loss decreased (0.891927 --> 0.868319).  Saving model ...
+Updating learning rate to 2.5e-05
+Epoch: 4 cost time: 42.42363214492798
+Epoch: 4, Steps: 75 | Train Loss: 0.3579657 Vali Loss: 0.9236126 Test Loss: 1.0014272
+EarlyStopping counter: 1 out of 3
+Updating learning rate to 1.25e-05
+Epoch: 5 cost time: 40.52856755256653
+Epoch: 5, Steps: 75 | Train Loss: 0.3375440 Vali Loss: 0.9321309 Test Loss: 1.0088563
+EarlyStopping counter: 2 out of 3
+Updating learning rate to 6.25e-06
+Epoch: 6 cost time: 39.94070792198181
+Epoch: 6, Steps: 75 | Train Loss: 0.3258425 Vali Loss: 0.9394076 Test Loss: 1.0212212
+EarlyStopping counter: 3 out of 3
+Early stopping
+>>>>>>>testing : Tiantan_Informer_36_24_10_Informer_custom_ftM_sl36_ll18_pl24_dm768_nh8_el2_dl2_df768_fc3_ebtimeF_dtTrue_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test 6989
+test shape: (6989, 1, 24, 11) (6989, 1, 24, 11)
+test shape: (6989, 24, 11) (6989, 24, 11)
+mse:0.9624460339546204, mae:0.6079196333885193
+Use CPU
+>>>>>>>start training : Tiantan_Informer_36_36_10_Informer_custom_ftM_sl36_ll18_pl36_dm768_nh8_el2_dl2_df768_fc3_ebtimeF_dtTrue_Exp_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2419
+val 3473
+test 6977
+Epoch: 1 cost time: 42.808881521224976
+Epoch: 1, Steps: 75 | Train Loss: 0.7086108 Vali Loss: 1.0617077 Test Loss: 1.0239687
+Validation loss decreased (inf --> 1.061708).  Saving model ...
+Updating learning rate to 0.0001
+Epoch: 2 cost time: 46.73288583755493
+Epoch: 2, Steps: 75 | Train Loss: 0.5380164 Vali Loss: 1.1482131 Test Loss: 1.1443900
+EarlyStopping counter: 1 out of 3
+Updating learning rate to 5e-05
+Epoch: 3 cost time: 45.8779354095459
+Epoch: 3, Steps: 75 | Train Loss: 0.4359558 Vali Loss: 1.0688561 Test Loss: 1.1056359
+EarlyStopping counter: 2 out of 3
+Updating learning rate to 2.5e-05
+Epoch: 4 cost time: 46.9026939868927
+Epoch: 4, Steps: 75 | Train Loss: 0.3858990 Vali Loss: 1.1270956 Test Loss: 1.1850126
+EarlyStopping counter: 3 out of 3
+Early stopping
+>>>>>>>testing : Tiantan_Informer_36_36_10_Informer_custom_ftM_sl36_ll18_pl36_dm768_nh8_el2_dl2_df768_fc3_ebtimeF_dtTrue_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test 6977
+test shape: (6977, 1, 36, 11) (6977, 1, 36, 11)
+test shape: (6977, 36, 11) (6977, 36, 11)
+mse:1.023742914199829, mae:0.6576247811317444
+Use CPU
+>>>>>>>start training : Tiantan_Informer_36_48_10_Informer_custom_ftM_sl36_ll18_pl48_dm768_nh8_el2_dl2_df768_fc3_ebtimeF_dtTrue_Exp_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2407
+val 3461
+test 6965
+Epoch: 1 cost time: 48.31078362464905
+Epoch: 1, Steps: 75 | Train Loss: 0.7286024 Vali Loss: 1.0818628 Test Loss: 1.0513375
+Validation loss decreased (inf --> 1.081863).  Saving model ...
+Updating learning rate to 0.0001
+Epoch: 2 cost time: 48.72856020927429
+Epoch: 2, Steps: 75 | Train Loss: 0.5615722 Vali Loss: 1.0753732 Test Loss: 1.1810007
+Validation loss decreased (1.081863 --> 1.075373).  Saving model ...
+Updating learning rate to 5e-05
+Epoch: 3 cost time: 50.8961660861969
+Epoch: 3, Steps: 75 | Train Loss: 0.4575299 Vali Loss: 1.2197495 Test Loss: 1.2553914
+EarlyStopping counter: 1 out of 3
+Updating learning rate to 2.5e-05
+Epoch: 4 cost time: 55.225866079330444
+Epoch: 4, Steps: 75 | Train Loss: 0.4092993 Vali Loss: 1.2276959 Test Loss: 1.3026006
+EarlyStopping counter: 2 out of 3
+Updating learning rate to 1.25e-05
+Epoch: 5 cost time: 55.2652792930603
+Epoch: 5, Steps: 75 | Train Loss: 0.3868640 Vali Loss: 1.2392641 Test Loss: 1.3261161
+EarlyStopping counter: 3 out of 3
+Early stopping
+>>>>>>>testing : Tiantan_Informer_36_48_10_Informer_custom_ftM_sl36_ll18_pl48_dm768_nh8_el2_dl2_df768_fc3_ebtimeF_dtTrue_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test 6965
+test shape: (6965, 1, 48, 11) (6965, 1, 48, 11)
+test shape: (6965, 48, 11) (6965, 48, 11)
+mse:1.1811590194702148, mae:0.7141387462615967
+Use CPU
+>>>>>>>start training : Tiantan_Informer_36_60_10_Informer_custom_ftM_sl36_ll18_pl60_dm768_nh8_el2_dl2_df768_fc3_ebtimeF_dtTrue_Exp_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2395
+val 3449
+test 6953
+Epoch: 1 cost time: 56.19723653793335
+Epoch: 1, Steps: 74 | Train Loss: 0.7380942 Vali Loss: 1.0348766 Test Loss: 1.1316844
+Validation loss decreased (inf --> 1.034877).  Saving model ...
+Updating learning rate to 0.0001
+Epoch: 2 cost time: 56.857712507247925
+Epoch: 2, Steps: 74 | Train Loss: 0.5761399 Vali Loss: 1.1551509 Test Loss: 1.1922771
+EarlyStopping counter: 1 out of 3
+Updating learning rate to 5e-05
+Epoch: 3 cost time: 55.900248765945435
+Epoch: 3, Steps: 74 | Train Loss: 0.4755807 Vali Loss: 1.2614894 Test Loss: 1.3309466
+EarlyStopping counter: 2 out of 3
+Updating learning rate to 2.5e-05
+Epoch: 4 cost time: 56.38668751716614
+Epoch: 4, Steps: 74 | Train Loss: 0.4285522 Vali Loss: 1.2479576 Test Loss: 1.3235025
+EarlyStopping counter: 3 out of 3
+Early stopping
+>>>>>>>testing : Tiantan_Informer_36_60_10_Informer_custom_ftM_sl36_ll18_pl60_dm768_nh8_el2_dl2_df768_fc3_ebtimeF_dtTrue_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test 6953
+test shape: (6953, 1, 60, 11) (6953, 1, 60, 11)
+test shape: (6953, 60, 11) (6953, 60, 11)
+mse:1.1314040422439575, mae:0.7306471467018127

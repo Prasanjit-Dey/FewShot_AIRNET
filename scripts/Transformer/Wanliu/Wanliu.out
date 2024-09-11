@@ -1,0 +1,248 @@
+Use GPU: cuda:0
+>>>>>>>start training : Wanliu_Transformer_36_24_5_Transformer_custom_ftM_sl36_ll18_pl24_dm768_nh8_el2_dl1_df768_fc3_ebtimeF_dtTrue_Exp_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 1204
+val 3485
+test 6989
+Epoch: 1 cost time: 3.064141035079956
+Epoch: 1, Steps: 37 | Train Loss: 0.6252086 Vali Loss: 0.6753306 Test Loss: 0.8640623
+Validation loss decreased (inf --> 0.675331).  Saving model ...
+Updating learning rate to 0.0001
+Epoch: 2 cost time: 1.2892115116119385
+Epoch: 2, Steps: 37 | Train Loss: 0.4452217 Vali Loss: 0.7090791 Test Loss: 0.8472849
+EarlyStopping counter: 1 out of 3
+Updating learning rate to 5e-05
+Epoch: 3 cost time: 1.3873586654663086
+Epoch: 3, Steps: 37 | Train Loss: 0.3630664 Vali Loss: 0.6974667 Test Loss: 0.8128085
+EarlyStopping counter: 2 out of 3
+Updating learning rate to 2.5e-05
+Epoch: 4 cost time: 1.291877031326294
+Epoch: 4, Steps: 37 | Train Loss: 0.3276887 Vali Loss: 0.7016660 Test Loss: 0.8555393
+EarlyStopping counter: 3 out of 3
+Early stopping
+>>>>>>>testing : Wanliu_Transformer_36_24_5_Transformer_custom_ftM_sl36_ll18_pl24_dm768_nh8_el2_dl1_df768_fc3_ebtimeF_dtTrue_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test 6989
+test shape: (6989, 1, 24, 11) (6989, 1, 24, 11)
+test shape: (6989, 24, 11) (6989, 24, 11)
+mse:0.8640626072883606, mae:0.6512181758880615
+Use GPU: cuda:0
+>>>>>>>start training : Wanliu_Transformer_36_36_5_Transformer_custom_ftM_sl36_ll18_pl36_dm768_nh8_el2_dl1_df768_fc3_ebtimeF_dtTrue_Exp_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 1192
+val 3473
+test 6977
+Epoch: 1 cost time: 2.298672914505005
+Epoch: 1, Steps: 37 | Train Loss: 0.6765358 Vali Loss: 0.7981724 Test Loss: 0.8491254
+Validation loss decreased (inf --> 0.798172).  Saving model ...
+Updating learning rate to 0.0001
+Epoch: 2 cost time: 1.3418664932250977
+Epoch: 2, Steps: 37 | Train Loss: 0.4757011 Vali Loss: 0.8348895 Test Loss: 0.9080138
+EarlyStopping counter: 1 out of 3
+Updating learning rate to 5e-05
+Epoch: 3 cost time: 1.3097906112670898
+Epoch: 3, Steps: 37 | Train Loss: 0.4040976 Vali Loss: 0.8170689 Test Loss: 0.9370371
+EarlyStopping counter: 2 out of 3
+Updating learning rate to 2.5e-05
+Epoch: 4 cost time: 1.3407750129699707
+Epoch: 4, Steps: 37 | Train Loss: 0.3727528 Vali Loss: 0.7949973 Test Loss: 0.9028493
+Validation loss decreased (0.798172 --> 0.794997).  Saving model ...
+Updating learning rate to 1.25e-05
+Epoch: 5 cost time: 1.3282279968261719
+Epoch: 5, Steps: 37 | Train Loss: 0.3571234 Vali Loss: 0.8128259 Test Loss: 0.9211470
+EarlyStopping counter: 1 out of 3
+Updating learning rate to 6.25e-06
+Epoch: 6 cost time: 1.3980484008789062
+Epoch: 6, Steps: 37 | Train Loss: 0.3490655 Vali Loss: 0.8100753 Test Loss: 0.9170426
+EarlyStopping counter: 2 out of 3
+Updating learning rate to 3.125e-06
+Epoch: 7 cost time: 1.3835883140563965
+Epoch: 7, Steps: 37 | Train Loss: 0.3463166 Vali Loss: 0.8137492 Test Loss: 0.9242609
+EarlyStopping counter: 3 out of 3
+Early stopping
+>>>>>>>testing : Wanliu_Transformer_36_36_5_Transformer_custom_ftM_sl36_ll18_pl36_dm768_nh8_el2_dl1_df768_fc3_ebtimeF_dtTrue_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test 6977
+test shape: (6977, 1, 36, 11) (6977, 1, 36, 11)
+test shape: (6977, 36, 11) (6977, 36, 11)
+mse:0.9028492569923401, mae:0.6514846086502075
+Use GPU: cuda:0
+>>>>>>>start training : Wanliu_Transformer_36_48_5_Transformer_custom_ftM_sl36_ll18_pl48_dm768_nh8_el2_dl1_df768_fc3_ebtimeF_dtTrue_Exp_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 1180
+val 3461
+test 6965
+Epoch: 1 cost time: 2.448235034942627
+Epoch: 1, Steps: 36 | Train Loss: 0.7243058 Vali Loss: 1.0644692 Test Loss: 1.1592393
+Validation loss decreased (inf --> 1.064469).  Saving model ...
+Updating learning rate to 0.0001
+Epoch: 2 cost time: 1.3083429336547852
+Epoch: 2, Steps: 36 | Train Loss: 0.5160966 Vali Loss: 0.8510675 Test Loss: 0.9889992
+Validation loss decreased (1.064469 --> 0.851067).  Saving model ...
+Updating learning rate to 5e-05
+Epoch: 3 cost time: 1.3369851112365723
+Epoch: 3, Steps: 36 | Train Loss: 0.4437223 Vali Loss: 0.8501326 Test Loss: 0.9813236
+Validation loss decreased (0.851067 --> 0.850133).  Saving model ...
+Updating learning rate to 2.5e-05
+Epoch: 4 cost time: 1.3796820640563965
+Epoch: 4, Steps: 36 | Train Loss: 0.4115762 Vali Loss: 0.8226207 Test Loss: 0.9590044
+Validation loss decreased (0.850133 --> 0.822621).  Saving model ...
+Updating learning rate to 1.25e-05
+Epoch: 5 cost time: 1.3619773387908936
+Epoch: 5, Steps: 36 | Train Loss: 0.3948725 Vali Loss: 0.8402311 Test Loss: 0.9586667
+EarlyStopping counter: 1 out of 3
+Updating learning rate to 6.25e-06
+Epoch: 6 cost time: 1.3743739128112793
+Epoch: 6, Steps: 36 | Train Loss: 0.3892968 Vali Loss: 0.8404453 Test Loss: 0.9608332
+EarlyStopping counter: 2 out of 3
+Updating learning rate to 3.125e-06
+Epoch: 7 cost time: 1.4524328708648682
+Epoch: 7, Steps: 36 | Train Loss: 0.3846666 Vali Loss: 0.8428455 Test Loss: 0.9600206
+EarlyStopping counter: 3 out of 3
+Early stopping
+>>>>>>>testing : Wanliu_Transformer_36_48_5_Transformer_custom_ftM_sl36_ll18_pl48_dm768_nh8_el2_dl1_df768_fc3_ebtimeF_dtTrue_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test 6965
+test shape: (6965, 1, 48, 11) (6965, 1, 48, 11)
+test shape: (6965, 48, 11) (6965, 48, 11)
+mse:0.959004282951355, mae:0.680404782295227
+Use GPU: cuda:0
+>>>>>>>start training : Wanliu_Transformer_36_60_5_Transformer_custom_ftM_sl36_ll18_pl60_dm768_nh8_el2_dl1_df768_fc3_ebtimeF_dtTrue_Exp_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 1168
+val 3449
+test 6953
+Epoch: 1 cost time: 2.433988332748413
+Epoch: 1, Steps: 36 | Train Loss: 0.7295504 Vali Loss: 1.0160124 Test Loss: 1.0745046
+Validation loss decreased (inf --> 1.016012).  Saving model ...
+Updating learning rate to 0.0001
+Epoch: 2 cost time: 1.2859244346618652
+Epoch: 2, Steps: 36 | Train Loss: 0.5377638 Vali Loss: 0.8721030 Test Loss: 0.9760452
+Validation loss decreased (1.016012 --> 0.872103).  Saving model ...
+Updating learning rate to 5e-05
+Epoch: 3 cost time: 1.3047940731048584
+Epoch: 3, Steps: 36 | Train Loss: 0.4570365 Vali Loss: 0.8981077 Test Loss: 0.9763726
+EarlyStopping counter: 1 out of 3
+Updating learning rate to 2.5e-05
+Epoch: 4 cost time: 1.4250833988189697
+Epoch: 4, Steps: 36 | Train Loss: 0.4235390 Vali Loss: 0.9172056 Test Loss: 0.9996122
+EarlyStopping counter: 2 out of 3
+Updating learning rate to 1.25e-05
+Epoch: 5 cost time: 1.468996524810791
+Epoch: 5, Steps: 36 | Train Loss: 0.4091989 Vali Loss: 0.9214879 Test Loss: 1.0011494
+EarlyStopping counter: 3 out of 3
+Early stopping
+>>>>>>>testing : Wanliu_Transformer_36_60_5_Transformer_custom_ftM_sl36_ll18_pl60_dm768_nh8_el2_dl1_df768_fc3_ebtimeF_dtTrue_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test 6953
+test shape: (6953, 1, 60, 11) (6953, 1, 60, 11)
+test shape: (6953, 60, 11) (6953, 60, 11)
+mse:0.9760453104972839, mae:0.7018542289733887
+Use GPU: cuda:0
+>>>>>>>start training : Wanliu_Transformer_36_24_10_Transformer_custom_ftM_sl36_ll18_pl24_dm768_nh8_el2_dl1_df768_fc3_ebtimeF_dtTrue_Exp_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2431
+val 3485
+test 6989
+Epoch: 1 cost time: 3.2115132808685303
+Epoch: 1, Steps: 75 | Train Loss: 0.5204751 Vali Loss: 0.6603281 Test Loss: 0.6687314
+Validation loss decreased (inf --> 0.660328).  Saving model ...
+Updating learning rate to 0.0001
+Epoch: 2 cost time: 2.0727994441986084
+Epoch: 2, Steps: 75 | Train Loss: 0.3683705 Vali Loss: 0.6298755 Test Loss: 0.6707500
+Validation loss decreased (0.660328 --> 0.629876).  Saving model ...
+Updating learning rate to 5e-05
+Epoch: 3 cost time: 2.1684508323669434
+Epoch: 3, Steps: 75 | Train Loss: 0.2840318 Vali Loss: 0.6457627 Test Loss: 0.6968737
+EarlyStopping counter: 1 out of 3
+Updating learning rate to 2.5e-05
+Epoch: 4 cost time: 2.0830516815185547
+Epoch: 4, Steps: 75 | Train Loss: 0.2535144 Vali Loss: 0.6405180 Test Loss: 0.7157352
+EarlyStopping counter: 2 out of 3
+Updating learning rate to 1.25e-05
+Epoch: 5 cost time: 2.0223259925842285
+Epoch: 5, Steps: 75 | Train Loss: 0.2410568 Vali Loss: 0.6694935 Test Loss: 0.7281551
+EarlyStopping counter: 3 out of 3
+Early stopping
+>>>>>>>testing : Wanliu_Transformer_36_24_10_Transformer_custom_ftM_sl36_ll18_pl24_dm768_nh8_el2_dl1_df768_fc3_ebtimeF_dtTrue_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test 6989
+test shape: (6989, 1, 24, 11) (6989, 1, 24, 11)
+test shape: (6989, 24, 11) (6989, 24, 11)
+mse:0.6707499027252197, mae:0.5373291373252869
+Use GPU: cuda:0
+>>>>>>>start training : Wanliu_Transformer_36_36_10_Transformer_custom_ftM_sl36_ll18_pl36_dm768_nh8_el2_dl1_df768_fc3_ebtimeF_dtTrue_Exp_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2419
+val 3473
+test 6977
+Epoch: 1 cost time: 3.2350897789001465
+Epoch: 1, Steps: 75 | Train Loss: 0.5428492 Vali Loss: 0.7162658 Test Loss: 0.6996227
+Validation loss decreased (inf --> 0.716266).  Saving model ...
+Updating learning rate to 0.0001
+Epoch: 2 cost time: 2.1153531074523926
+Epoch: 2, Steps: 75 | Train Loss: 0.4040787 Vali Loss: 0.7197864 Test Loss: 0.7721712
+EarlyStopping counter: 1 out of 3
+Updating learning rate to 5e-05
+Epoch: 3 cost time: 2.130680561065674
+Epoch: 3, Steps: 75 | Train Loss: 0.3264492 Vali Loss: 0.7586982 Test Loss: 0.8280087
+EarlyStopping counter: 2 out of 3
+Updating learning rate to 2.5e-05
+Epoch: 4 cost time: 1.9916563034057617
+Epoch: 4, Steps: 75 | Train Loss: 0.2919856 Vali Loss: 0.7711694 Test Loss: 0.8259881
+EarlyStopping counter: 3 out of 3
+Early stopping
+>>>>>>>testing : Wanliu_Transformer_36_36_10_Transformer_custom_ftM_sl36_ll18_pl36_dm768_nh8_el2_dl1_df768_fc3_ebtimeF_dtTrue_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test 6977
+test shape: (6977, 1, 36, 11) (6977, 1, 36, 11)
+test shape: (6977, 36, 11) (6977, 36, 11)
+mse:0.6996226906776428, mae:0.5433102250099182
+Use GPU: cuda:0
+>>>>>>>start training : Wanliu_Transformer_36_48_10_Transformer_custom_ftM_sl36_ll18_pl48_dm768_nh8_el2_dl1_df768_fc3_ebtimeF_dtTrue_Exp_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2407
+val 3461
+test 6965
+Epoch: 1 cost time: 3.0987682342529297
+Epoch: 1, Steps: 75 | Train Loss: 0.5625475 Vali Loss: 0.8956155 Test Loss: 0.7905096
+Validation loss decreased (inf --> 0.895615).  Saving model ...
+Updating learning rate to 0.0001
+Epoch: 2 cost time: 2.034294605255127
+Epoch: 2, Steps: 75 | Train Loss: 0.4197395 Vali Loss: 0.9116656 Test Loss: 0.8849817
+EarlyStopping counter: 1 out of 3
+Updating learning rate to 5e-05
+Epoch: 3 cost time: 2.0475099086761475
+Epoch: 3, Steps: 75 | Train Loss: 0.3536483 Vali Loss: 0.8311187 Test Loss: 0.8427702
+Validation loss decreased (0.895615 --> 0.831119).  Saving model ...
+Updating learning rate to 2.5e-05
+Epoch: 4 cost time: 2.070521831512451
+Epoch: 4, Steps: 75 | Train Loss: 0.3221574 Vali Loss: 0.8450402 Test Loss: 0.8703640
+EarlyStopping counter: 1 out of 3
+Updating learning rate to 1.25e-05
+Epoch: 5 cost time: 2.062265396118164
+Epoch: 5, Steps: 75 | Train Loss: 0.3066638 Vali Loss: 0.8701909 Test Loss: 0.8943779
+EarlyStopping counter: 2 out of 3
+Updating learning rate to 6.25e-06
+Epoch: 6 cost time: 2.1045339107513428
+Epoch: 6, Steps: 75 | Train Loss: 0.2982112 Vali Loss: 0.8740853 Test Loss: 0.9026694
+EarlyStopping counter: 3 out of 3
+Early stopping
+>>>>>>>testing : Wanliu_Transformer_36_48_10_Transformer_custom_ftM_sl36_ll18_pl48_dm768_nh8_el2_dl1_df768_fc3_ebtimeF_dtTrue_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test 6965
+test shape: (6965, 1, 48, 11) (6965, 1, 48, 11)
+test shape: (6965, 48, 11) (6965, 48, 11)
+mse:0.8427700996398926, mae:0.607014536857605
+Use GPU: cuda:0
+>>>>>>>start training : Wanliu_Transformer_36_60_10_Transformer_custom_ftM_sl36_ll18_pl60_dm768_nh8_el2_dl1_df768_fc3_ebtimeF_dtTrue_Exp_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2395
+val 3449
+test 6953
+Epoch: 1 cost time: 2.99059796333313
+Epoch: 1, Steps: 74 | Train Loss: 0.5898287 Vali Loss: 0.7891892 Test Loss: 0.7871531
+Validation loss decreased (inf --> 0.789189).  Saving model ...
+Updating learning rate to 0.0001
+Epoch: 2 cost time: 2.1275875568389893
+Epoch: 2, Steps: 74 | Train Loss: 0.4427369 Vali Loss: 0.8794543 Test Loss: 0.8770366
+EarlyStopping counter: 1 out of 3
+Updating learning rate to 5e-05
+Epoch: 3 cost time: 2.108438491821289
+Epoch: 3, Steps: 74 | Train Loss: 0.3744247 Vali Loss: 0.9007284 Test Loss: 0.9075115
+EarlyStopping counter: 2 out of 3
+Updating learning rate to 2.5e-05
+Epoch: 4 cost time: 2.1281650066375732
+Epoch: 4, Steps: 74 | Train Loss: 0.3442848 Vali Loss: 0.9236205 Test Loss: 0.9404927
+EarlyStopping counter: 3 out of 3
+Early stopping
+>>>>>>>testing : Wanliu_Transformer_36_60_10_Transformer_custom_ftM_sl36_ll18_pl60_dm768_nh8_el2_dl1_df768_fc3_ebtimeF_dtTrue_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test 6953
+test shape: (6953, 1, 60, 11) (6953, 1, 60, 11)
+test shape: (6953, 60, 11) (6953, 60, 11)
+mse:0.7871529459953308, mae:0.6016626358032227

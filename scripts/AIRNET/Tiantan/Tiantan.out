@@ -1,0 +1,220 @@
+Use GPU: cuda:0
+>>>>>>>start training : Tiantan_TimesNet_36_24_5_TimesNet_custom_ftM_sl36_ll18_pl24_dm768_nh8_el2_dl1_df768_fc3_ebtimeF_dtTrue_Exp_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 1204
+val 3485
+test 6989
+Epoch: 1 cost time: 21.02038288116455
+Epoch: 1, Steps: 37 | Train Loss: 0.8927058 Vali Loss: 0.6914793 Test Loss: 0.7673447
+Validation loss decreased (inf --> 0.691479).  Saving model ...
+Updating learning rate to 0.0001
+Epoch: 2 cost time: 19.789713621139526
+Epoch: 2, Steps: 37 | Train Loss: 0.6749457 Vali Loss: 0.6739600 Test Loss: 0.7297524
+Validation loss decreased (0.691479 --> 0.673960).  Saving model ...
+Updating learning rate to 5e-05
+Epoch: 3 cost time: 19.698806285858154
+Epoch: 3, Steps: 37 | Train Loss: 0.5197264 Vali Loss: 0.7060261 Test Loss: 0.7519686
+EarlyStopping counter: 1 out of 3
+Updating learning rate to 2.5e-05
+Epoch: 4 cost time: 19.7907235622406
+Epoch: 4, Steps: 37 | Train Loss: 0.4353006 Vali Loss: 0.7114049 Test Loss: 0.7582263
+EarlyStopping counter: 2 out of 3
+Updating learning rate to 1.25e-05
+Epoch: 5 cost time: 19.8382887840271
+Epoch: 5, Steps: 37 | Train Loss: 0.3903747 Vali Loss: 0.7277121 Test Loss: 0.7655066
+EarlyStopping counter: 3 out of 3
+Early stopping
+>>>>>>>testing : Tiantan_TimesNet_36_24_5_TimesNet_custom_ftM_sl36_ll18_pl24_dm768_nh8_el2_dl1_df768_fc3_ebtimeF_dtTrue_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test 6989
+test shape: (6989, 1, 24, 11) (6989, 1, 24, 11)
+test shape: (6989, 24, 11) (6989, 24, 11)
+mse:0.7297523617744446, mae:0.4548741281032562
+Use GPU: cuda:0
+>>>>>>>start training : Tiantan_TimesNet_36_36_5_TimesNet_custom_ftM_sl36_ll18_pl36_dm768_nh8_el2_dl1_df768_fc3_ebtimeF_dtTrue_Exp_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 1192
+val 3473
+test 6977
+Epoch: 1 cost time: 22.88158392906189
+Epoch: 1, Steps: 37 | Train Loss: 0.9766090 Vali Loss: 0.7776769 Test Loss: 0.8358715
+Validation loss decreased (inf --> 0.777677).  Saving model ...
+Updating learning rate to 0.0001
+Epoch: 2 cost time: 21.93515181541443
+Epoch: 2, Steps: 37 | Train Loss: 0.7279069 Vali Loss: 0.8273408 Test Loss: 0.8709263
+EarlyStopping counter: 1 out of 3
+Updating learning rate to 5e-05
+Epoch: 3 cost time: 21.923195123672485
+Epoch: 3, Steps: 37 | Train Loss: 0.5680191 Vali Loss: 0.7904952 Test Loss: 0.8587665
+EarlyStopping counter: 2 out of 3
+Updating learning rate to 2.5e-05
+Epoch: 4 cost time: 22.01094675064087
+Epoch: 4, Steps: 37 | Train Loss: 0.4642569 Vali Loss: 0.8547339 Test Loss: 0.8936579
+EarlyStopping counter: 3 out of 3
+Early stopping
+>>>>>>>testing : Tiantan_TimesNet_36_36_5_TimesNet_custom_ftM_sl36_ll18_pl36_dm768_nh8_el2_dl1_df768_fc3_ebtimeF_dtTrue_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test 6977
+test shape: (6977, 1, 36, 11) (6977, 1, 36, 11)
+test shape: (6977, 36, 11) (6977, 36, 11)
+mse:0.8358711004257202, mae:0.5031145215034485
+Use GPU: cuda:0
+>>>>>>>start training : Tiantan_TimesNet_36_48_5_TimesNet_custom_ftM_sl36_ll18_pl48_dm768_nh8_el2_dl1_df768_fc3_ebtimeF_dtTrue_Exp_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 1180
+val 3461
+test 6965
+Epoch: 1 cost time: 26.622735738754272
+Epoch: 1, Steps: 36 | Train Loss: 1.0515455 Vali Loss: 0.8348434 Test Loss: 0.8948213
+Validation loss decreased (inf --> 0.834843).  Saving model ...
+Updating learning rate to 0.0001
+Epoch: 2 cost time: 25.425050497055054
+Epoch: 2, Steps: 36 | Train Loss: 0.7817238 Vali Loss: 0.9185280 Test Loss: 0.9233950
+EarlyStopping counter: 1 out of 3
+Updating learning rate to 5e-05
+Epoch: 3 cost time: 25.62039828300476
+Epoch: 3, Steps: 36 | Train Loss: 0.5814901 Vali Loss: 0.9404026 Test Loss: 0.9513025
+EarlyStopping counter: 2 out of 3
+Updating learning rate to 2.5e-05
+Epoch: 4 cost time: 25.58742117881775
+Epoch: 4, Steps: 36 | Train Loss: 0.4708916 Vali Loss: 0.9681329 Test Loss: 0.9810150
+EarlyStopping counter: 3 out of 3
+Early stopping
+>>>>>>>testing : Tiantan_TimesNet_36_48_5_TimesNet_custom_ftM_sl36_ll18_pl48_dm768_nh8_el2_dl1_df768_fc3_ebtimeF_dtTrue_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test 6965
+test shape: (6965, 1, 48, 11) (6965, 1, 48, 11)
+test shape: (6965, 48, 11) (6965, 48, 11)
+mse:0.8948212265968323, mae:0.5225699543952942
+Use GPU: cuda:0
+>>>>>>>start training : Tiantan_TimesNet_36_60_5_TimesNet_custom_ftM_sl36_ll18_pl60_dm768_nh8_el2_dl1_df768_fc3_ebtimeF_dtTrue_Exp_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 1168
+val 3449
+test 6953
+Epoch: 1 cost time: 28.2579824924469
+Epoch: 1, Steps: 36 | Train Loss: 1.1313029 Vali Loss: 0.9293448 Test Loss: 1.0194404
+Validation loss decreased (inf --> 0.929345).  Saving model ...
+Updating learning rate to 0.0001
+Epoch: 2 cost time: 27.247446537017822
+Epoch: 2, Steps: 36 | Train Loss: 0.8724813 Vali Loss: 0.9125701 Test Loss: 0.9846789
+Validation loss decreased (0.929345 --> 0.912570).  Saving model ...
+Updating learning rate to 5e-05
+Epoch: 3 cost time: 27.188072204589844
+Epoch: 3, Steps: 36 | Train Loss: 0.6911184 Vali Loss: 0.9366563 Test Loss: 0.9840691
+EarlyStopping counter: 1 out of 3
+Updating learning rate to 2.5e-05
+Epoch: 4 cost time: 27.232426404953003
+Epoch: 4, Steps: 36 | Train Loss: 0.5804780 Vali Loss: 0.9654128 Test Loss: 1.0006292
+EarlyStopping counter: 2 out of 3
+Updating learning rate to 1.25e-05
+Epoch: 5 cost time: 27.24770164489746
+Epoch: 5, Steps: 36 | Train Loss: 0.5175181 Vali Loss: 0.9976102 Test Loss: 1.0317471
+EarlyStopping counter: 3 out of 3
+Early stopping
+>>>>>>>testing : Tiantan_TimesNet_36_60_5_TimesNet_custom_ftM_sl36_ll18_pl60_dm768_nh8_el2_dl1_df768_fc3_ebtimeF_dtTrue_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test 6953
+test shape: (6953, 1, 60, 11) (6953, 1, 60, 11)
+test shape: (6953, 60, 11) (6953, 60, 11)
+mse:0.9846790432929993, mae:0.5582842230796814
+Use GPU: cuda:0
+>>>>>>>start training : Tiantan_TimesNet_36_24_10_TimesNet_custom_ftM_sl36_ll18_pl24_dm768_nh8_el2_dl1_df768_fc3_ebtimeF_dtTrue_Exp_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2431
+val 3485
+test 6989
+Epoch: 1 cost time: 40.39855766296387
+Epoch: 1, Steps: 75 | Train Loss: 0.7101465 Vali Loss: 0.6360975 Test Loss: 0.6968960
+Validation loss decreased (inf --> 0.636097).  Saving model ...
+Updating learning rate to 0.0001
+Epoch: 2 cost time: 39.401132345199585
+Epoch: 2, Steps: 75 | Train Loss: 0.5429596 Vali Loss: 0.6650913 Test Loss: 0.7309347
+EarlyStopping counter: 1 out of 3
+Updating learning rate to 5e-05
+Epoch: 3 cost time: 39.38329100608826
+Epoch: 3, Steps: 75 | Train Loss: 0.4361559 Vali Loss: 0.6575579 Test Loss: 0.7200900
+EarlyStopping counter: 2 out of 3
+Updating learning rate to 2.5e-05
+Epoch: 4 cost time: 39.36003398895264
+Epoch: 4, Steps: 75 | Train Loss: 0.3598536 Vali Loss: 0.6941847 Test Loss: 0.7382053
+EarlyStopping counter: 3 out of 3
+Early stopping
+>>>>>>>testing : Tiantan_TimesNet_36_24_10_TimesNet_custom_ftM_sl36_ll18_pl24_dm768_nh8_el2_dl1_df768_fc3_ebtimeF_dtTrue_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test 6989
+test shape: (6989, 1, 24, 11) (6989, 1, 24, 11)
+test shape: (6989, 24, 11) (6989, 24, 11)
+mse:0.6968963146209717, mae:0.43557679653167725
+Use GPU: cuda:0
+>>>>>>>start training : Tiantan_TimesNet_36_36_10_TimesNet_custom_ftM_sl36_ll18_pl36_dm768_nh8_el2_dl1_df768_fc3_ebtimeF_dtTrue_Exp_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2419
+val 3473
+test 6977
+Epoch: 1 cost time: 44.86467671394348
+Epoch: 1, Steps: 75 | Train Loss: 0.7896420 Vali Loss: 0.7363475 Test Loss: 0.7821514
+Validation loss decreased (inf --> 0.736347).  Saving model ...
+Updating learning rate to 0.0001
+Epoch: 2 cost time: 43.92031478881836
+Epoch: 2, Steps: 75 | Train Loss: 0.6024708 Vali Loss: 0.7702010 Test Loss: 0.8166811
+EarlyStopping counter: 1 out of 3
+Updating learning rate to 5e-05
+Epoch: 3 cost time: 43.95927381515503
+Epoch: 3, Steps: 75 | Train Loss: 0.4743304 Vali Loss: 0.7908817 Test Loss: 0.8271498
+EarlyStopping counter: 2 out of 3
+Updating learning rate to 2.5e-05
+Epoch: 4 cost time: 43.99783658981323
+Epoch: 4, Steps: 75 | Train Loss: 0.3913695 Vali Loss: 0.8029974 Test Loss: 0.8302041
+EarlyStopping counter: 3 out of 3
+Early stopping
+>>>>>>>testing : Tiantan_TimesNet_36_36_10_TimesNet_custom_ftM_sl36_ll18_pl36_dm768_nh8_el2_dl1_df768_fc3_ebtimeF_dtTrue_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test 6977
+test shape: (6977, 1, 36, 11) (6977, 1, 36, 11)
+test shape: (6977, 36, 11) (6977, 36, 11)
+mse:0.7821516394615173, mae:0.475046306848526
+Use GPU: cuda:0
+>>>>>>>start training : Tiantan_TimesNet_36_48_10_TimesNet_custom_ftM_sl36_ll18_pl48_dm768_nh8_el2_dl1_df768_fc3_ebtimeF_dtTrue_Exp_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2407
+val 3461
+test 6965
+Epoch: 1 cost time: 53.238518476486206
+Epoch: 1, Steps: 75 | Train Loss: 0.8162002 Vali Loss: 0.8325636 Test Loss: 0.8582003
+Validation loss decreased (inf --> 0.832564).  Saving model ...
+Updating learning rate to 0.0001
+Epoch: 2 cost time: 52.270275354385376
+Epoch: 2, Steps: 75 | Train Loss: 0.6305779 Vali Loss: 0.8227763 Test Loss: 0.8527743
+Validation loss decreased (0.832564 --> 0.822776).  Saving model ...
+Updating learning rate to 5e-05
+Epoch: 3 cost time: 52.28811955451965
+Epoch: 3, Steps: 75 | Train Loss: 0.4832236 Vali Loss: 0.8974392 Test Loss: 0.9080589
+EarlyStopping counter: 1 out of 3
+Updating learning rate to 2.5e-05
+Epoch: 4 cost time: 52.28687000274658
+Epoch: 4, Steps: 75 | Train Loss: 0.3906916 Vali Loss: 0.8914334 Test Loss: 0.9080200
+EarlyStopping counter: 2 out of 3
+Updating learning rate to 1.25e-05
+Epoch: 5 cost time: 52.254945278167725
+Epoch: 5, Steps: 75 | Train Loss: 0.3364815 Vali Loss: 0.9436360 Test Loss: 0.9420931
+EarlyStopping counter: 3 out of 3
+Early stopping
+>>>>>>>testing : Tiantan_TimesNet_36_48_10_TimesNet_custom_ftM_sl36_ll18_pl48_dm768_nh8_el2_dl1_df768_fc3_ebtimeF_dtTrue_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test 6965
+test shape: (6965, 1, 48, 11) (6965, 1, 48, 11)
+test shape: (6965, 48, 11) (6965, 48, 11)
+mse:0.8527743816375732, mae:0.49846410751342773
+Use GPU: cuda:0
+>>>>>>>start training : Tiantan_TimesNet_36_60_10_TimesNet_custom_ftM_sl36_ll18_pl60_dm768_nh8_el2_dl1_df768_fc3_ebtimeF_dtTrue_Exp_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2395
+val 3449
+test 6953
+Epoch: 1 cost time: 56.35213851928711
+Epoch: 1, Steps: 74 | Train Loss: 0.8825551 Vali Loss: 0.8290152 Test Loss: 0.8859782
+Validation loss decreased (inf --> 0.829015).  Saving model ...
+Updating learning rate to 0.0001
+Epoch: 2 cost time: 55.32277846336365
+Epoch: 2, Steps: 74 | Train Loss: 0.6711403 Vali Loss: 0.8567603 Test Loss: 0.8984317
+EarlyStopping counter: 1 out of 3
+Updating learning rate to 5e-05
+Epoch: 3 cost time: 55.45310187339783
+Epoch: 3, Steps: 74 | Train Loss: 0.5308315 Vali Loss: 0.9458500 Test Loss: 0.9701279
+EarlyStopping counter: 2 out of 3
+Updating learning rate to 2.5e-05
+Epoch: 4 cost time: 55.50293779373169
+Epoch: 4, Steps: 74 | Train Loss: 0.4388522 Vali Loss: 0.9695555 Test Loss: 0.9734724
+EarlyStopping counter: 3 out of 3
+Early stopping
+>>>>>>>testing : Tiantan_TimesNet_36_60_10_TimesNet_custom_ftM_sl36_ll18_pl60_dm768_nh8_el2_dl1_df768_fc3_ebtimeF_dtTrue_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test 6953
+test shape: (6953, 1, 60, 11) (6953, 1, 60, 11)
+test shape: (6953, 60, 11) (6953, 60, 11)
+mse:0.8859778642654419, mae:0.5209794044494629

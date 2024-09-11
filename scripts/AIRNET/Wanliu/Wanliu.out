@@ -1,0 +1,216 @@
+Use GPU: cuda:0
+>>>>>>>start training : Wanliu_TimesNet_36_24_5_TimesNet_custom_ftM_sl36_ll18_pl24_dm768_nh8_el2_dl1_df768_fc3_ebtimeF_dtTrue_Exp_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 1204
+val 3485
+test 6989
+Epoch: 1 cost time: 20.849440097808838
+Epoch: 1, Steps: 37 | Train Loss: 0.6937703 Vali Loss: 0.6228537 Test Loss: 0.5777147
+Validation loss decreased (inf --> 0.622854).  Saving model ...
+Updating learning rate to 0.0001
+Epoch: 2 cost time: 19.805827379226685
+Epoch: 2, Steps: 37 | Train Loss: 0.4758178 Vali Loss: 0.6519016 Test Loss: 0.5883070
+EarlyStopping counter: 1 out of 3
+Updating learning rate to 5e-05
+Epoch: 3 cost time: 19.760990381240845
+Epoch: 3, Steps: 37 | Train Loss: 0.3324413 Vali Loss: 0.6439859 Test Loss: 0.5693514
+EarlyStopping counter: 2 out of 3
+Updating learning rate to 2.5e-05
+Epoch: 4 cost time: 19.789491176605225
+Epoch: 4, Steps: 37 | Train Loss: 0.2645289 Vali Loss: 0.6638081 Test Loss: 0.5841407
+EarlyStopping counter: 3 out of 3
+Early stopping
+>>>>>>>testing : Wanliu_TimesNet_36_24_5_TimesNet_custom_ftM_sl36_ll18_pl24_dm768_nh8_el2_dl1_df768_fc3_ebtimeF_dtTrue_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test 6989
+test shape: (6989, 1, 24, 11) (6989, 1, 24, 11)
+test shape: (6989, 24, 11) (6989, 24, 11)
+mse:0.5777146816253662, mae:0.4334637522697449
+Use GPU: cuda:0
+>>>>>>>start training : Wanliu_TimesNet_36_36_5_TimesNet_custom_ftM_sl36_ll18_pl36_dm768_nh8_el2_dl1_df768_fc3_ebtimeF_dtTrue_Exp_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 1192
+val 3473
+test 6977
+Epoch: 1 cost time: 22.893776893615723
+Epoch: 1, Steps: 37 | Train Loss: 0.7767088 Vali Loss: 0.7840035 Test Loss: 0.6876944
+Validation loss decreased (inf --> 0.784003).  Saving model ...
+Updating learning rate to 0.0001
+Epoch: 2 cost time: 21.96292281150818
+Epoch: 2, Steps: 37 | Train Loss: 0.5331502 Vali Loss: 0.7472926 Test Loss: 0.6573189
+Validation loss decreased (0.784003 --> 0.747293).  Saving model ...
+Updating learning rate to 5e-05
+Epoch: 3 cost time: 21.917787313461304
+Epoch: 3, Steps: 37 | Train Loss: 0.3975787 Vali Loss: 0.7865946 Test Loss: 0.6721594
+EarlyStopping counter: 1 out of 3
+Updating learning rate to 2.5e-05
+Epoch: 4 cost time: 22.024587392807007
+Epoch: 4, Steps: 37 | Train Loss: 0.3192468 Vali Loss: 0.7969288 Test Loss: 0.6832424
+EarlyStopping counter: 2 out of 3
+Updating learning rate to 1.25e-05
+Epoch: 5 cost time: 21.93208646774292
+Epoch: 5, Steps: 37 | Train Loss: 0.2761062 Vali Loss: 0.8252159 Test Loss: 0.6956453
+EarlyStopping counter: 3 out of 3
+Early stopping
+>>>>>>>testing : Wanliu_TimesNet_36_36_5_TimesNet_custom_ftM_sl36_ll18_pl36_dm768_nh8_el2_dl1_df768_fc3_ebtimeF_dtTrue_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test 6977
+test shape: (6977, 1, 36, 11) (6977, 1, 36, 11)
+test shape: (6977, 36, 11) (6977, 36, 11)
+mse:0.6573190093040466, mae:0.470674604177475
+Use GPU: cuda:0
+>>>>>>>start training : Wanliu_TimesNet_36_48_5_TimesNet_custom_ftM_sl36_ll18_pl48_dm768_nh8_el2_dl1_df768_fc3_ebtimeF_dtTrue_Exp_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 1180
+val 3461
+test 6965
+Epoch: 1 cost time: 26.32218861579895
+Epoch: 1, Steps: 36 | Train Loss: 0.8631564 Vali Loss: 0.8212432 Test Loss: 0.7114881
+Validation loss decreased (inf --> 0.821243).  Saving model ...
+Updating learning rate to 0.0001
+Epoch: 2 cost time: 25.373259782791138
+Epoch: 2, Steps: 36 | Train Loss: 0.5918523 Vali Loss: 0.8490111 Test Loss: 0.7400230
+EarlyStopping counter: 1 out of 3
+Updating learning rate to 5e-05
+Epoch: 3 cost time: 25.462395191192627
+Epoch: 3, Steps: 36 | Train Loss: 0.4174492 Vali Loss: 0.8968047 Test Loss: 0.7441666
+EarlyStopping counter: 2 out of 3
+Updating learning rate to 2.5e-05
+Epoch: 4 cost time: 25.514604568481445
+Epoch: 4, Steps: 36 | Train Loss: 0.3284168 Vali Loss: 0.9263633 Test Loss: 0.7693845
+EarlyStopping counter: 3 out of 3
+Early stopping
+>>>>>>>testing : Wanliu_TimesNet_36_48_5_TimesNet_custom_ftM_sl36_ll18_pl48_dm768_nh8_el2_dl1_df768_fc3_ebtimeF_dtTrue_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test 6965
+test shape: (6965, 1, 48, 11) (6965, 1, 48, 11)
+test shape: (6965, 48, 11) (6965, 48, 11)
+mse:0.7114882469177246, mae:0.49396225810050964
+Use GPU: cuda:0
+>>>>>>>start training : Wanliu_TimesNet_36_60_5_TimesNet_custom_ftM_sl36_ll18_pl60_dm768_nh8_el2_dl1_df768_fc3_ebtimeF_dtTrue_Exp_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 1168
+val 3449
+test 6953
+Epoch: 1 cost time: 28.238433361053467
+Epoch: 1, Steps: 36 | Train Loss: 0.9545088 Vali Loss: 0.9108770 Test Loss: 0.8007444
+Validation loss decreased (inf --> 0.910877).  Saving model ...
+Updating learning rate to 0.0001
+Epoch: 2 cost time: 27.225948095321655
+Epoch: 2, Steps: 36 | Train Loss: 0.6709359 Vali Loss: 0.9153708 Test Loss: 0.7806376
+EarlyStopping counter: 1 out of 3
+Updating learning rate to 5e-05
+Epoch: 3 cost time: 27.26976180076599
+Epoch: 3, Steps: 36 | Train Loss: 0.4861839 Vali Loss: 1.0048267 Test Loss: 0.8047271
+EarlyStopping counter: 2 out of 3
+Updating learning rate to 2.5e-05
+Epoch: 4 cost time: 27.333488941192627
+Epoch: 4, Steps: 36 | Train Loss: 0.3916466 Vali Loss: 0.9621956 Test Loss: 0.8038930
+EarlyStopping counter: 3 out of 3
+Early stopping
+>>>>>>>testing : Wanliu_TimesNet_36_60_5_TimesNet_custom_ftM_sl36_ll18_pl60_dm768_nh8_el2_dl1_df768_fc3_ebtimeF_dtTrue_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test 6953
+test shape: (6953, 1, 60, 11) (6953, 1, 60, 11)
+test shape: (6953, 60, 11) (6953, 60, 11)
+mse:0.8007444739341736, mae:0.5321804881095886
+Use GPU: cuda:0
+>>>>>>>start training : Wanliu_TimesNet_36_24_10_TimesNet_custom_ftM_sl36_ll18_pl24_dm768_nh8_el2_dl1_df768_fc3_ebtimeF_dtTrue_Exp_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2431
+val 3485
+test 6989
+Epoch: 1 cost time: 40.43005418777466
+Epoch: 1, Steps: 75 | Train Loss: 0.5415542 Vali Loss: 0.6190117 Test Loss: 0.5584314
+Validation loss decreased (inf --> 0.619012).  Saving model ...
+Updating learning rate to 0.0001
+Epoch: 2 cost time: 39.39347815513611
+Epoch: 2, Steps: 75 | Train Loss: 0.3945018 Vali Loss: 0.6007627 Test Loss: 0.5626402
+Validation loss decreased (0.619012 --> 0.600763).  Saving model ...
+Updating learning rate to 5e-05
+Epoch: 3 cost time: 39.48736596107483
+Epoch: 3, Steps: 75 | Train Loss: 0.2736963 Vali Loss: 0.6264825 Test Loss: 0.5716097
+EarlyStopping counter: 1 out of 3
+Updating learning rate to 2.5e-05
+Epoch: 4 cost time: 39.459911584854126
+Epoch: 4, Steps: 75 | Train Loss: 0.2071635 Vali Loss: 0.6630456 Test Loss: 0.6076145
+EarlyStopping counter: 2 out of 3
+Updating learning rate to 1.25e-05
+Epoch: 5 cost time: 39.57956075668335
+Epoch: 5, Steps: 75 | Train Loss: 0.1744322 Vali Loss: 0.6634251 Test Loss: 0.6069921
+EarlyStopping counter: 3 out of 3
+Early stopping
+>>>>>>>testing : Wanliu_TimesNet_36_24_10_TimesNet_custom_ftM_sl36_ll18_pl24_dm768_nh8_el2_dl1_df768_fc3_ebtimeF_dtTrue_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test 6989
+test shape: (6989, 1, 24, 11) (6989, 1, 24, 11)
+test shape: (6989, 24, 11) (6989, 24, 11)
+mse:0.562640368938446, mae:0.42022815346717834
+Use GPU: cuda:0
+>>>>>>>start training : Wanliu_TimesNet_36_36_10_TimesNet_custom_ftM_sl36_ll18_pl36_dm768_nh8_el2_dl1_df768_fc3_ebtimeF_dtTrue_Exp_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2419
+val 3473
+test 6977
+Epoch: 1 cost time: 44.95161175727844
+Epoch: 1, Steps: 75 | Train Loss: 0.6148332 Vali Loss: 0.7370820 Test Loss: 0.6411834
+Validation loss decreased (inf --> 0.737082).  Saving model ...
+Updating learning rate to 0.0001
+Epoch: 2 cost time: 43.96466565132141
+Epoch: 2, Steps: 75 | Train Loss: 0.4499625 Vali Loss: 0.7707360 Test Loss: 0.6572354
+EarlyStopping counter: 1 out of 3
+Updating learning rate to 5e-05
+Epoch: 3 cost time: 44.0024733543396
+Epoch: 3, Steps: 75 | Train Loss: 0.3237830 Vali Loss: 0.7509968 Test Loss: 0.6440907
+EarlyStopping counter: 2 out of 3
+Updating learning rate to 2.5e-05
+Epoch: 4 cost time: 43.93438649177551
+Epoch: 4, Steps: 75 | Train Loss: 0.2503358 Vali Loss: 0.7992291 Test Loss: 0.6670734
+EarlyStopping counter: 3 out of 3
+Early stopping
+>>>>>>>testing : Wanliu_TimesNet_36_36_10_TimesNet_custom_ftM_sl36_ll18_pl36_dm768_nh8_el2_dl1_df768_fc3_ebtimeF_dtTrue_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test 6977
+test shape: (6977, 1, 36, 11) (6977, 1, 36, 11)
+test shape: (6977, 36, 11) (6977, 36, 11)
+mse:0.641183614730835, mae:0.4578746259212494
+Use GPU: cuda:0
+>>>>>>>start training : Wanliu_TimesNet_36_48_10_TimesNet_custom_ftM_sl36_ll18_pl48_dm768_nh8_el2_dl1_df768_fc3_ebtimeF_dtTrue_Exp_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2407
+val 3461
+test 6965
+Epoch: 1 cost time: 53.12962007522583
+Epoch: 1, Steps: 75 | Train Loss: 0.6484628 Vali Loss: 0.7823642 Test Loss: 0.6862798
+Validation loss decreased (inf --> 0.782364).  Saving model ...
+Updating learning rate to 0.0001
+Epoch: 2 cost time: 52.19990396499634
+Epoch: 2, Steps: 75 | Train Loss: 0.4527106 Vali Loss: 0.8005878 Test Loss: 0.7090939
+EarlyStopping counter: 1 out of 3
+Updating learning rate to 5e-05
+Epoch: 3 cost time: 52.318719148635864
+Epoch: 3, Steps: 75 | Train Loss: 0.3183667 Vali Loss: 0.8813102 Test Loss: 0.7472591
+EarlyStopping counter: 2 out of 3
+Updating learning rate to 2.5e-05
+Epoch: 4 cost time: 52.231470346450806
+Epoch: 4, Steps: 75 | Train Loss: 0.2426465 Vali Loss: 0.9052514 Test Loss: 0.7689522
+EarlyStopping counter: 3 out of 3
+Early stopping
+>>>>>>>testing : Wanliu_TimesNet_36_48_10_TimesNet_custom_ftM_sl36_ll18_pl48_dm768_nh8_el2_dl1_df768_fc3_ebtimeF_dtTrue_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test 6965
+test shape: (6965, 1, 48, 11) (6965, 1, 48, 11)
+test shape: (6965, 48, 11) (6965, 48, 11)
+mse:0.6862799525260925, mae:0.4815632402896881
+Use GPU: cuda:0
+>>>>>>>start training : Wanliu_TimesNet_36_60_10_TimesNet_custom_ftM_sl36_ll18_pl60_dm768_nh8_el2_dl1_df768_fc3_ebtimeF_dtTrue_Exp_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2395
+val 3449
+test 6953
+Epoch: 1 cost time: 56.32236981391907
+Epoch: 1, Steps: 74 | Train Loss: 0.6997994 Vali Loss: 0.8117349 Test Loss: 0.7119823
+Validation loss decreased (inf --> 0.811735).  Saving model ...
+Updating learning rate to 0.0001
+Epoch: 2 cost time: 55.497700691223145
+Epoch: 2, Steps: 74 | Train Loss: 0.5053717 Vali Loss: 0.8383515 Test Loss: 0.7287279
+EarlyStopping counter: 1 out of 3
+Updating learning rate to 5e-05
+Epoch: 3 cost time: 55.55938386917114
+Epoch: 3, Steps: 74 | Train Loss: 0.3638031 Vali Loss: 1.0238506 Test Loss: 0.8077795
+EarlyStopping counter: 2 out of 3
+Updating learning rate to 2.5e-05
+Epoch: 4 cost time: 55.496723890304565
+Epoch: 4, Steps: 74 | Train Loss: 0.2733663 Vali Loss: 1.0459569 Test Loss: 0.8208543
+EarlyStopping counter: 3 out of 3
+Early stopping
+>>>>>>>testing : Wanliu_TimesNet_36_60_10_TimesNet_custom_ftM_sl36_ll18_pl60_dm768_nh8_el2_dl1_df768_fc3_ebtimeF_dtTrue_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test 6953
+test shape: (6953, 1, 60, 11) (6953, 1, 60, 11)
+test shape: (6953, 60, 11) (6953, 60, 11)
+mse:0.711982250213623, mae:0.4955004155635834

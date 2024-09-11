@@ -1,0 +1,288 @@
+Use GPU: cuda:0
+>>>>>>>start training : Tiantan_Crossformer_36_24_5_Crossformer_custom_ftM_sl36_ll18_pl24_dm768_nh8_el2_dl1_df768_fc3_ebtimeF_dtTrue_Exp_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 1204
+val 3485
+test 6989
+Epoch: 1 cost time: 3.0410268306732178
+Epoch: 1, Steps: 37 | Train Loss: 1.0219135 Vali Loss: 0.6693469 Test Loss: 0.7815318
+Validation loss decreased (inf --> 0.669347).  Saving model ...
+Updating learning rate to 0.0001
+Epoch: 2 cost time: 2.3834192752838135
+Epoch: 2, Steps: 37 | Train Loss: 0.7549995 Vali Loss: 0.5995692 Test Loss: 0.7167941
+Validation loss decreased (0.669347 --> 0.599569).  Saving model ...
+Updating learning rate to 5e-05
+Epoch: 3 cost time: 2.783465623855591
+Epoch: 3, Steps: 37 | Train Loss: 0.6809188 Vali Loss: 0.6149173 Test Loss: 0.7823756
+EarlyStopping counter: 1 out of 3
+Updating learning rate to 2.5e-05
+Epoch: 4 cost time: 2.811697006225586
+Epoch: 4, Steps: 37 | Train Loss: 0.6360538 Vali Loss: 0.6282074 Test Loss: 0.7721497
+EarlyStopping counter: 2 out of 3
+Updating learning rate to 1.25e-05
+Epoch: 5 cost time: 2.770759344100952
+Epoch: 5, Steps: 37 | Train Loss: 0.5879313 Vali Loss: 0.5837805 Test Loss: 0.7663944
+Validation loss decreased (0.599569 --> 0.583780).  Saving model ...
+Updating learning rate to 6.25e-06
+Epoch: 6 cost time: 2.809067964553833
+Epoch: 6, Steps: 37 | Train Loss: 0.5729282 Vali Loss: 0.5761383 Test Loss: 0.7755696
+Validation loss decreased (0.583780 --> 0.576138).  Saving model ...
+Updating learning rate to 3.125e-06
+Epoch: 7 cost time: 2.60653018951416
+Epoch: 7, Steps: 37 | Train Loss: 0.5658957 Vali Loss: 0.5788608 Test Loss: 0.7812493
+EarlyStopping counter: 1 out of 3
+Updating learning rate to 1.5625e-06
+Epoch: 8 cost time: 2.722296953201294
+Epoch: 8, Steps: 37 | Train Loss: 0.5652469 Vali Loss: 0.5776424 Test Loss: 0.7773986
+EarlyStopping counter: 2 out of 3
+Updating learning rate to 7.8125e-07
+Epoch: 9 cost time: 2.5958032608032227
+Epoch: 9, Steps: 37 | Train Loss: 0.5620757 Vali Loss: 0.5802926 Test Loss: 0.7841268
+EarlyStopping counter: 3 out of 3
+Early stopping
+>>>>>>>testing : Tiantan_Crossformer_36_24_5_Crossformer_custom_ftM_sl36_ll18_pl24_dm768_nh8_el2_dl1_df768_fc3_ebtimeF_dtTrue_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test 6989
+test shape: (6989, 1, 24, 11) (6989, 1, 24, 11)
+test shape: (6989, 24, 11) (6989, 24, 11)
+mse:0.7755696177482605, mae:0.5340753197669983
+Use GPU: cuda:0
+>>>>>>>start training : Tiantan_Crossformer_36_36_5_Crossformer_custom_ftM_sl36_ll18_pl36_dm768_nh8_el2_dl1_df768_fc3_ebtimeF_dtTrue_Exp_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 1192
+val 3473
+test 6977
+Epoch: 1 cost time: 2.7617218494415283
+Epoch: 1, Steps: 37 | Train Loss: 1.0433311 Vali Loss: 0.7722675 Test Loss: 0.9323744
+Validation loss decreased (inf --> 0.772267).  Saving model ...
+Updating learning rate to 0.0001
+Epoch: 2 cost time: 2.91982102394104
+Epoch: 2, Steps: 37 | Train Loss: 0.8068039 Vali Loss: 0.8939979 Test Loss: 0.9360023
+EarlyStopping counter: 1 out of 3
+Updating learning rate to 5e-05
+Epoch: 3 cost time: 2.872591018676758
+Epoch: 3, Steps: 37 | Train Loss: 0.7221932 Vali Loss: 0.7467759 Test Loss: 0.8811518
+Validation loss decreased (0.772267 --> 0.746776).  Saving model ...
+Updating learning rate to 2.5e-05
+Epoch: 4 cost time: 2.841059446334839
+Epoch: 4, Steps: 37 | Train Loss: 0.6654879 Vali Loss: 0.7442987 Test Loss: 0.9409026
+Validation loss decreased (0.746776 --> 0.744299).  Saving model ...
+Updating learning rate to 1.25e-05
+Epoch: 5 cost time: 2.8308138847351074
+Epoch: 5, Steps: 37 | Train Loss: 0.6422319 Vali Loss: 0.7546487 Test Loss: 0.9080346
+EarlyStopping counter: 1 out of 3
+Updating learning rate to 6.25e-06
+Epoch: 6 cost time: 2.841830253601074
+Epoch: 6, Steps: 37 | Train Loss: 0.6208162 Vali Loss: 0.7394670 Test Loss: 0.9126204
+Validation loss decreased (0.744299 --> 0.739467).  Saving model ...
+Updating learning rate to 3.125e-06
+Epoch: 7 cost time: 2.8811545372009277
+Epoch: 7, Steps: 37 | Train Loss: 0.6132633 Vali Loss: 0.7331443 Test Loss: 0.9087498
+Validation loss decreased (0.739467 --> 0.733144).  Saving model ...
+Updating learning rate to 1.5625e-06
+Epoch: 8 cost time: 2.87566876411438
+Epoch: 8, Steps: 37 | Train Loss: 0.6059454 Vali Loss: 0.7501729 Test Loss: 0.9278418
+EarlyStopping counter: 1 out of 3
+Updating learning rate to 7.8125e-07
+Epoch: 9 cost time: 2.8872382640838623
+Epoch: 9, Steps: 37 | Train Loss: 0.6076680 Vali Loss: 0.7472258 Test Loss: 0.9263811
+EarlyStopping counter: 2 out of 3
+Updating learning rate to 3.90625e-07
+Epoch: 10 cost time: 2.3863418102264404
+Epoch: 10, Steps: 37 | Train Loss: 0.6046358 Vali Loss: 0.7471320 Test Loss: 0.9242265
+EarlyStopping counter: 3 out of 3
+Early stopping
+>>>>>>>testing : Tiantan_Crossformer_36_36_5_Crossformer_custom_ftM_sl36_ll18_pl36_dm768_nh8_el2_dl1_df768_fc3_ebtimeF_dtTrue_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test 6977
+test shape: (6977, 1, 36, 11) (6977, 1, 36, 11)
+test shape: (6977, 36, 11) (6977, 36, 11)
+mse:0.9087499380111694, mae:0.6172583699226379
+Use GPU: cuda:0
+>>>>>>>start training : Tiantan_Crossformer_36_48_5_Crossformer_custom_ftM_sl36_ll18_pl48_dm768_nh8_el2_dl1_df768_fc3_ebtimeF_dtTrue_Exp_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 1180
+val 3461
+test 6965
+Epoch: 1 cost time: 2.7090988159179688
+Epoch: 1, Steps: 36 | Train Loss: 1.1059040 Vali Loss: 0.7922591 Test Loss: 0.9346490
+Validation loss decreased (inf --> 0.792259).  Saving model ...
+Updating learning rate to 0.0001
+Epoch: 2 cost time: 2.8033461570739746
+Epoch: 2, Steps: 36 | Train Loss: 0.8786554 Vali Loss: 0.8726903 Test Loss: 0.9315153
+EarlyStopping counter: 1 out of 3
+Updating learning rate to 5e-05
+Epoch: 3 cost time: 2.7238590717315674
+Epoch: 3, Steps: 36 | Train Loss: 0.7837957 Vali Loss: 0.8608014 Test Loss: 1.0152845
+EarlyStopping counter: 2 out of 3
+Updating learning rate to 2.5e-05
+Epoch: 4 cost time: 2.6639151573181152
+Epoch: 4, Steps: 36 | Train Loss: 0.7232658 Vali Loss: 0.7731557 Test Loss: 0.9586219
+Validation loss decreased (0.792259 --> 0.773156).  Saving model ...
+Updating learning rate to 1.25e-05
+Epoch: 5 cost time: 2.819138526916504
+Epoch: 5, Steps: 36 | Train Loss: 0.6948993 Vali Loss: 0.7768350 Test Loss: 0.9601809
+EarlyStopping counter: 1 out of 3
+Updating learning rate to 6.25e-06
+Epoch: 6 cost time: 2.7151401042938232
+Epoch: 6, Steps: 36 | Train Loss: 0.6763619 Vali Loss: 0.7724828 Test Loss: 0.9747144
+Validation loss decreased (0.773156 --> 0.772483).  Saving model ...
+Updating learning rate to 3.125e-06
+Epoch: 7 cost time: 2.754690408706665
+Epoch: 7, Steps: 36 | Train Loss: 0.6747341 Vali Loss: 0.7875201 Test Loss: 0.9819044
+EarlyStopping counter: 1 out of 3
+Updating learning rate to 1.5625e-06
+Epoch: 8 cost time: 2.803459644317627
+Epoch: 8, Steps: 36 | Train Loss: 0.6691312 Vali Loss: 0.7921935 Test Loss: 0.9990214
+EarlyStopping counter: 2 out of 3
+Updating learning rate to 7.8125e-07
+Epoch: 9 cost time: 2.5911080837249756
+Epoch: 9, Steps: 36 | Train Loss: 0.6699628 Vali Loss: 0.7871763 Test Loss: 0.9966152
+EarlyStopping counter: 3 out of 3
+Early stopping
+>>>>>>>testing : Tiantan_Crossformer_36_48_5_Crossformer_custom_ftM_sl36_ll18_pl48_dm768_nh8_el2_dl1_df768_fc3_ebtimeF_dtTrue_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test 6965
+test shape: (6965, 1, 48, 11) (6965, 1, 48, 11)
+test shape: (6965, 48, 11) (6965, 48, 11)
+mse:0.9747142195701599, mae:0.6504442691802979
+Use GPU: cuda:0
+>>>>>>>start training : Tiantan_Crossformer_36_60_5_Crossformer_custom_ftM_sl36_ll18_pl60_dm768_nh8_el2_dl1_df768_fc3_ebtimeF_dtTrue_Exp_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 1168
+val 3449
+test 6953
+Epoch: 1 cost time: 2.8743906021118164
+Epoch: 1, Steps: 36 | Train Loss: 1.1267560 Vali Loss: 0.8960200 Test Loss: 1.0968790
+Validation loss decreased (inf --> 0.896020).  Saving model ...
+Updating learning rate to 0.0001
+Epoch: 2 cost time: 2.850454092025757
+Epoch: 2, Steps: 36 | Train Loss: 0.9039615 Vali Loss: 0.8559854 Test Loss: 0.9709660
+Validation loss decreased (0.896020 --> 0.855985).  Saving model ...
+Updating learning rate to 5e-05
+Epoch: 3 cost time: 2.831568479537964
+Epoch: 3, Steps: 36 | Train Loss: 0.8170859 Vali Loss: 0.8570215 Test Loss: 0.9940224
+EarlyStopping counter: 1 out of 3
+Updating learning rate to 2.5e-05
+Epoch: 4 cost time: 2.8079922199249268
+Epoch: 4, Steps: 36 | Train Loss: 0.7602176 Vali Loss: 0.8696361 Test Loss: 1.0196433
+EarlyStopping counter: 2 out of 3
+Updating learning rate to 1.25e-05
+Epoch: 5 cost time: 2.855119466781616
+Epoch: 5, Steps: 36 | Train Loss: 0.7371771 Vali Loss: 0.8745964 Test Loss: 1.0365396
+EarlyStopping counter: 3 out of 3
+Early stopping
+>>>>>>>testing : Tiantan_Crossformer_36_60_5_Crossformer_custom_ftM_sl36_ll18_pl60_dm768_nh8_el2_dl1_df768_fc3_ebtimeF_dtTrue_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test 6953
+test shape: (6953, 1, 60, 11) (6953, 1, 60, 11)
+test shape: (6953, 60, 11) (6953, 60, 11)
+mse:0.9709662199020386, mae:0.6623287200927734
+Use GPU: cuda:0
+>>>>>>>start training : Tiantan_Crossformer_36_24_10_Crossformer_custom_ftM_sl36_ll18_pl24_dm768_nh8_el2_dl1_df768_fc3_ebtimeF_dtTrue_Exp_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2431
+val 3485
+test 6989
+Epoch: 1 cost time: 4.963330268859863
+Epoch: 1, Steps: 75 | Train Loss: 0.7849093 Vali Loss: 0.5925478 Test Loss: 0.6705122
+Validation loss decreased (inf --> 0.592548).  Saving model ...
+Updating learning rate to 0.0001
+Epoch: 2 cost time: 5.19889235496521
+Epoch: 2, Steps: 75 | Train Loss: 0.6114458 Vali Loss: 0.6444251 Test Loss: 0.7195280
+EarlyStopping counter: 1 out of 3
+Updating learning rate to 5e-05
+Epoch: 3 cost time: 5.107909440994263
+Epoch: 3, Steps: 75 | Train Loss: 0.5445509 Vali Loss: 0.5740269 Test Loss: 0.6438884
+Validation loss decreased (0.592548 --> 0.574027).  Saving model ...
+Updating learning rate to 2.5e-05
+Epoch: 4 cost time: 4.856459856033325
+Epoch: 4, Steps: 75 | Train Loss: 0.4977656 Vali Loss: 0.6071315 Test Loss: 0.6534169
+EarlyStopping counter: 1 out of 3
+Updating learning rate to 1.25e-05
+Epoch: 5 cost time: 5.093432903289795
+Epoch: 5, Steps: 75 | Train Loss: 0.4742441 Vali Loss: 0.6100181 Test Loss: 0.6575707
+EarlyStopping counter: 2 out of 3
+Updating learning rate to 6.25e-06
+Epoch: 6 cost time: 5.026843547821045
+Epoch: 6, Steps: 75 | Train Loss: 0.4597956 Vali Loss: 0.6212702 Test Loss: 0.6660237
+EarlyStopping counter: 3 out of 3
+Early stopping
+>>>>>>>testing : Tiantan_Crossformer_36_24_10_Crossformer_custom_ftM_sl36_ll18_pl24_dm768_nh8_el2_dl1_df768_fc3_ebtimeF_dtTrue_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test 6989
+test shape: (6989, 1, 24, 11) (6989, 1, 24, 11)
+test shape: (6989, 24, 11) (6989, 24, 11)
+mse:0.6438886523246765, mae:0.45435088872909546
+Use GPU: cuda:0
+>>>>>>>start training : Tiantan_Crossformer_36_36_10_Crossformer_custom_ftM_sl36_ll18_pl36_dm768_nh8_el2_dl1_df768_fc3_ebtimeF_dtTrue_Exp_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2419
+val 3473
+test 6977
+Epoch: 1 cost time: 4.840436697006226
+Epoch: 1, Steps: 75 | Train Loss: 0.8097631 Vali Loss: 0.6915984 Test Loss: 0.7519583
+Validation loss decreased (inf --> 0.691598).  Saving model ...
+Updating learning rate to 0.0001
+Epoch: 2 cost time: 5.075448513031006
+Epoch: 2, Steps: 75 | Train Loss: 0.6449399 Vali Loss: 0.6838610 Test Loss: 0.7381333
+Validation loss decreased (0.691598 --> 0.683861).  Saving model ...
+Updating learning rate to 5e-05
+Epoch: 3 cost time: 4.99376106262207
+Epoch: 3, Steps: 75 | Train Loss: 0.5703365 Vali Loss: 0.7284830 Test Loss: 0.7600201
+EarlyStopping counter: 1 out of 3
+Updating learning rate to 2.5e-05
+Epoch: 4 cost time: 5.29470419883728
+Epoch: 4, Steps: 75 | Train Loss: 0.5299986 Vali Loss: 0.7133914 Test Loss: 0.7321811
+EarlyStopping counter: 2 out of 3
+Updating learning rate to 1.25e-05
+Epoch: 5 cost time: 5.236826658248901
+Epoch: 5, Steps: 75 | Train Loss: 0.5041930 Vali Loss: 0.7223565 Test Loss: 0.7424872
+EarlyStopping counter: 3 out of 3
+Early stopping
+>>>>>>>testing : Tiantan_Crossformer_36_36_10_Crossformer_custom_ftM_sl36_ll18_pl36_dm768_nh8_el2_dl1_df768_fc3_ebtimeF_dtTrue_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test 6977
+test shape: (6977, 1, 36, 11) (6977, 1, 36, 11)
+test shape: (6977, 36, 11) (6977, 36, 11)
+mse:0.7381332516670227, mae:0.5154736638069153
+Use GPU: cuda:0
+>>>>>>>start training : Tiantan_Crossformer_36_48_10_Crossformer_custom_ftM_sl36_ll18_pl48_dm768_nh8_el2_dl1_df768_fc3_ebtimeF_dtTrue_Exp_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2407
+val 3461
+test 6965
+Epoch: 1 cost time: 5.066563606262207
+Epoch: 1, Steps: 75 | Train Loss: 0.8467162 Vali Loss: 0.7654350 Test Loss: 0.8122020
+Validation loss decreased (inf --> 0.765435).  Saving model ...
+Updating learning rate to 0.0001
+Epoch: 2 cost time: 4.774317026138306
+Epoch: 2, Steps: 75 | Train Loss: 0.6743397 Vali Loss: 0.8709176 Test Loss: 0.8844382
+EarlyStopping counter: 1 out of 3
+Updating learning rate to 5e-05
+Epoch: 3 cost time: 4.785912990570068
+Epoch: 3, Steps: 75 | Train Loss: 0.5947297 Vali Loss: 0.8917089 Test Loss: 0.8947013
+EarlyStopping counter: 2 out of 3
+Updating learning rate to 2.5e-05
+Epoch: 4 cost time: 5.219024658203125
+Epoch: 4, Steps: 75 | Train Loss: 0.5456991 Vali Loss: 0.8064008 Test Loss: 0.8212042
+EarlyStopping counter: 3 out of 3
+Early stopping
+>>>>>>>testing : Tiantan_Crossformer_36_48_10_Crossformer_custom_ftM_sl36_ll18_pl48_dm768_nh8_el2_dl1_df768_fc3_ebtimeF_dtTrue_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test 6965
+test shape: (6965, 1, 48, 11) (6965, 1, 48, 11)
+test shape: (6965, 48, 11) (6965, 48, 11)
+mse:0.8122019171714783, mae:0.5639933943748474
+Use GPU: cuda:0
+>>>>>>>start training : Tiantan_Crossformer_36_60_10_Crossformer_custom_ftM_sl36_ll18_pl60_dm768_nh8_el2_dl1_df768_fc3_ebtimeF_dtTrue_Exp_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2395
+val 3449
+test 6953
+Epoch: 1 cost time: 4.844215154647827
+Epoch: 1, Steps: 74 | Train Loss: 0.8601905 Vali Loss: 0.7798762 Test Loss: 0.8219193
+Validation loss decreased (inf --> 0.779876).  Saving model ...
+Updating learning rate to 0.0001
+Epoch: 2 cost time: 5.3091020584106445
+Epoch: 2, Steps: 74 | Train Loss: 0.6958573 Vali Loss: 0.8720346 Test Loss: 0.8749065
+EarlyStopping counter: 1 out of 3
+Updating learning rate to 5e-05
+Epoch: 3 cost time: 5.000680208206177
+Epoch: 3, Steps: 74 | Train Loss: 0.6198870 Vali Loss: 0.8536888 Test Loss: 0.8695062
+EarlyStopping counter: 2 out of 3
+Updating learning rate to 2.5e-05
+Epoch: 4 cost time: 5.067072629928589
+Epoch: 4, Steps: 74 | Train Loss: 0.5757814 Vali Loss: 0.8328533 Test Loss: 0.8596889
+EarlyStopping counter: 3 out of 3
+Early stopping
+>>>>>>>testing : Tiantan_Crossformer_36_60_10_Crossformer_custom_ftM_sl36_ll18_pl60_dm768_nh8_el2_dl1_df768_fc3_ebtimeF_dtTrue_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test 6953
+test shape: (6953, 1, 60, 11) (6953, 1, 60, 11)
+test shape: (6953, 60, 11) (6953, 60, 11)
+mse:0.821918785572052, mae:0.5570243000984192

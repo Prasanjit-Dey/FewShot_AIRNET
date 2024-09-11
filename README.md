@@ -2,8 +2,13 @@
 
 1. The **datasets** folder contains air pollution data from three sites in China.
 
+**Usage Details:**
 
-
+1. Install Python 3.8.
+   
+2. Install related packages using:
+   **pip install -r requirements.txt**
+   
 
 **Acknowledgement:**
 

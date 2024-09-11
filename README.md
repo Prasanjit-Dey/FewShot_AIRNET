@@ -6,8 +6,10 @@
 
 
 **Acknowledgement:**
-We appreciate the following GitHub repositorie for their codebase
-![(https://github.com/thuml/Time-Series-Library)]([https://github.com/user-attachments/assets/ee2c545a-2aec-42dc-ba44-c9a9c47dd6ca](https://github.com/thuml/Time-Series-Library))
+
+We appreciate the following GitHub repository for their codebase:
+
+[Time-Series-Library](https://github.com/thuml/Time-Series-Library)
 
 
  
